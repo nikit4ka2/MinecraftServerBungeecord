@@ -1,0 +1,261 @@
+[14:53:44] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[14:53:44] [Server thread/INFO]: Loading properties
+[14:53:44] [Server thread/INFO]: Default game type: SURVIVAL
+[14:53:44] [Server thread/INFO]: Generating keypair
+[14:53:45] [Server thread/INFO]: Starting Minecraft server on 127.0.0.1:25568
+[14:53:45] [Server thread/INFO]: Using default channel type
+[14:53:47] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-18fbb24 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[14:53:48] [Server thread/INFO]: [PermissionsEx] sql backend registered!
+[14:53:48] [Server thread/INFO]: [PermissionsEx] file backend registered!
+[14:53:48] [Server thread/INFO]: [PermissionsEx] PermissionEx plugin initialized.
+[14:53:49] [Server thread/INFO]: [INFO][NoCheatPlus] Thu Oct 11 14:53:49 YEKT 2018
+[14:53:49] [Server thread/INFO]: Player instances are stored for efficiency.
+[14:53:49] [Server thread/INFO]: [AutoSaveWorld] Loading AutoSaveWorld v3.9
+[14:53:49] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v10.8
+[14:53:49] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v5.5.8-SNAPSHOT
+[14:53:49] [Server thread/INFO]: [SpawnTP] Loading SpawnTP v1.6
+[14:53:49] [Server thread/INFO]: [SmokeTrail] Loading SmokeTrail v8.0
+[14:53:49] [Server thread/INFO]: [AntiAd] Loading AntiAd v2.1
+[14:53:49] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.19.5
+[14:53:49] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[14:53:49] [Server thread/INFO]: Permissions file successfully reloaded
+[14:53:49] [Server thread/INFO]: [AutoMessage] Loading AutoMessage v2.0.5
+[14:53:49] [Server thread/INFO]: [SurvivalGames] Loading SurvivalGames v0.5.8.54
+[14:53:49] [Server thread/INFO]: [NoWither] Loading NoWither v1.2
+[14:53:49] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v1.5.2
+[14:53:49] [Server thread/INFO]: [ViaVersion] ViaVersion 1.5.2 is now loaded, injecting!
+[14:53:50] [Server thread/INFO]: [ViaVersion] Loading block mapping...
+[14:53:52] [Server thread/INFO]: [ViaVersion] Loading item mapping...
+[14:53:52] [Server thread/INFO]: [ViaVersion] Loading new tags...
+[14:53:52] [Server thread/INFO]: [ViaVersion] Loading enchantments...
+[14:53:52] [Server thread/INFO]: [ViaVersion] Loading sound mapping...
+[14:53:52] [Server thread/INFO]: [Vault] Loading Vault v1.2.25-b320
+[14:53:52] [Server thread/INFO]: [HideStream] Loading HideStream v3.8
+[14:53:52] [Server thread/INFO]: [ChatManager] Loading ChatManager v1.19.1
+[14:53:52] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v3.7-SNAPSHOT-b234
+[14:53:53] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v5.7.5
+[14:53:53] [Server thread/INFO]: [NoCheatPlus] Loading NoCheatPlus v3.13.8-SNAPSHOT-sMD5NET-b930
+[14:53:53] [Server thread/INFO]: onLoad: Early set up of static API, configuration, logging.
+[14:53:53] [Server thread/INFO]: [NoCheatPlus] Logging system initialized.
+[14:53:53] [Server thread/INFO]: [NoCheatPlus] Detected Minecraft version: 1.8.8
+[14:53:53] [Server thread/INFO]: [ColoredTags] Loading ColoredTags v2.1.3
+[14:53:53] [Server thread/INFO]: [ChestCommands] Loading ChestCommands v3.1.4
+[14:53:53] [Server thread/INFO]: [AncientGates] Loading AncientGates v2.0.6
+[14:53:53] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v10.8
+[14:53:54] [Server thread/INFO]: ----------------------------
+[14:53:54] [Server thread/INFO]:   SkinsRestorer Updater
+[14:53:54] [Server thread/INFO]:  
+[14:53:54] [Server thread/INFO]: Could not connect to spigotmc.org
+[14:53:54] [Server thread/INFO]: to check for updates! 
+[14:53:54] [Server thread/INFO]:  
+[14:53:54] [Server thread/INFO]: ----------------------------
+[14:53:54] [Server thread/ERROR]: Error occurred while enabling SkinsRestorer v10.8 (Is it up to date?)
+java.lang.NullPointerException
+	at skinsrestorer.bukkit.SkinsRestorer.onEnable(SkinsRestorer.java:89) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321) ~[spigot.jar:git-Bukkit-18fbb24]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332) [spigot.jar:git-Bukkit-18fbb24]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:404) [spigot.jar:git-Bukkit-18fbb24]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:342) [spigot.jar:git-Bukkit-18fbb24]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:314) [spigot.jar:git-Bukkit-18fbb24]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.<init>(CraftServer.java:252) [spigot.jar:git-Bukkit-18fbb24]
+	at net.minecraft.server.v1_8_R3.PlayerList.<init>(PlayerList.java:69) [spigot.jar:git-Bukkit-18fbb24]
+	at net.minecraft.server.v1_8_R3.DedicatedPlayerList.<init>(SourceFile:14) [spigot.jar:git-Bukkit-18fbb24]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:179) [spigot.jar:git-Bukkit-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:504) [spigot.jar:git-Bukkit-18fbb24]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[14:53:54] [Server thread/INFO]: [Vault] Enabling Vault v1.2.25-b320
+[14:53:54] [Server thread/INFO]: [Vault][Permission] PermissionsEx found: Waiting
+[14:53:54] [Server thread/INFO]: [Vault][Permission] SuperPermissions loaded as backup permission system.
+[14:53:54] [Server thread/INFO]: [Vault][Chat] PermissionsEx found: Waiting
+[14:53:54] [Server thread/INFO]: [Vault] Enabled Version 1.2.25-b320
+[14:53:54] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
+[14:53:54] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v3.7-SNAPSHOT-b234
+[14:53:54] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[14:53:54] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:53:54] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:53:54] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:53:54] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:53:54] [Server thread/INFO]: Preparing level "world"
+[14:53:54] [Server thread/INFO]: Preparing start region for level 0 (Seed: 6938358163719280732)
+[14:53:55] [Server thread/INFO]: Preparing spawn area: 9%
+[14:53:56] [Server thread/INFO]: Preparing spawn area: 90%
+[14:53:57] [Server thread/INFO]: [AutoSaveWorld] Enabling AutoSaveWorld v3.9
+[14:53:57] [Server thread/INFO]: [AutoSaveWorld] Version 3.9 is enabled: f227abaa-af2c-4a95-9120-a30dc5c03d07
+[14:53:57] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v5.5.8-SNAPSHOT
+[14:53:57] [Thread-8/INFO]: [AutoSaveWorld] AutoSaveThread Started: Interval is 300 seconds, Warn Times are 0
+[14:53:57] [Thread-9/INFO]: [AutoSaveWorld] AutoBackupThread Started: Interval is 21600 seconds, Warn Times are 0
+[14:53:57] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[14:53:57] [Server thread/INFO]: [SpawnTP] Enabling SpawnTP v1.6
+[14:53:57] [Server thread/INFO]: [SmokeTrail] Enabling SmokeTrail v8.0
+[14:53:58] [Server thread/INFO]: [Smoke Trail]  is now enabled!
+[14:53:58] [Server thread/WARN]: [SmokeTrail] Could not save config.yml to plugins\SmokeTrail\config.yml because config.yml already exists.
+[14:53:58] [Server thread/INFO]: Smoke Trail Metrics loaded
+[14:53:58] [Server thread/INFO]: [AntiAd] Enabling AntiAd v2.1
+[14:53:58] [Server thread/WARN]: [AntiAd] Your config contains a error with the langugage (it isn't a valid languge)
+[14:53:58] [Server thread/INFO]: [AntiAd] AntiAd Version 2.1 is now Enabled
+[14:53:58] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.19.5
+[14:53:58] [Server thread/INFO]: [PermissionsEx] Superperms support enabled.
+[14:53:58] [Server thread/INFO]: [PermissionsEx] v1.19.5 enabled
+[14:53:58] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[14:53:58] [Server thread/INFO]: [Vault][Chat] PermissionsEx_Chat hooked.
+[14:53:58] [Server thread/INFO]: [AutoMessage] Enabling AutoMessage v2.0.5
+[14:53:58] [Server thread/INFO]: [SurvivalGames] Enabling SurvivalGames v0.5.8.54
+[14:53:58] [Server thread/INFO]: METRICS STARTING
+[14:53:58] [Server thread/INFO]: [NoWither] Enabling NoWither v1.2
+[14:53:58] [Server thread/INFO]: [NoWither] NoWither has been enabled.
+[14:53:58] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v1.5.2
+[14:53:58] [Server thread/INFO]: [ViaVersion] You have anti-xray on in your config, since you're not using spigot it won't fix xray!
+[14:53:58] [Server thread/INFO]: [HideStream] Enabling HideStream v3.8
+[14:53:58] [Server thread/INFO]: [HideStream] Version 3.8 enabled.
+[14:53:58] [Server thread/INFO]: [ChatManager] Enabling ChatManager v1.19.1
+[14:53:58] [Server thread/INFO]: [ChatManager] ChatManager enabled!
+[14:53:58] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v5.7.5
+[14:53:58] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[14:53:58] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[14:53:58] [Server thread/INFO]: [WorldGuard] (world) Lava fire is blocked.
+[14:53:58] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[14:53:58] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[14:53:58] [Server thread/INFO]: [WorldGuard] 3 regions loaded for 'world'
+[14:53:59] [Server thread/INFO]: [NoCheatPlus] Enabling NoCheatPlus v3.13.8-SNAPSHOT-sMD5NET-b930
+[14:53:59] [Server thread/INFO]: [NoCheatPlus] McAccess set to: 1.8.4-1.8.8 / Spigot-CB-1.8_R3
+[14:53:59] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.5 blocks.
+[14:53:59] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.6.1 blocks.
+[14:53:59] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.7.2 blocks.
+[14:53:59] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.8 blocks.
+[14:53:59] [Server thread/INFO]: [NoCheatPlus] Inventory checks: FastConsume is available, disabled InstantEat.
+[14:53:59] [Server thread/INFO]: [NoCheatPlus] Adding packet level hooks for ProtocolLib (MC 1.8.8)...
+[14:53:59] [Server thread/INFO]: [NoCheatPlus] Available (and activated) packet level hooks: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter | SoundDistance
+[14:53:59] [Server thread/WARN]: [NoCheatPlus] Your configuration might be outdated.
+Some settings could have changed, you should regenerate it!
+[14:53:59] [Server thread/INFO]: [NoCheatPlus] Version 3.13.8-SNAPSHOT-sMD5NET-b930 is enabled.
+[14:53:59] [Server thread/INFO]: [ColoredTags] Enabling ColoredTags v2.1.3
+[14:54:00] [Server thread/INFO]: [ChestCommands] Enabling ChestCommands v3.1.4
+[14:54:00] [Server thread/WARN]: [ChestCommands] Vault with a compatible economy plugin was not found! Icons with a PRICE or commands that give money will not work.
+[14:54:00] [Server thread/INFO]: [AncientGates] Enabling AncientGates v2.0.6
+[14:54:00] [Server thread/INFO]: [AncientGates] Vault economy hook not found. Economy support unavailable.
+[14:54:00] [Server thread/INFO]: [AncientGates] Loading conf from disk
+[14:54:01] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:54:01] [Server thread/INFO]: Done (6,947s)! For help, type "help" or "?"
+[14:54:01] [Server thread/INFO]: [NoCheatPlus] Post-enable running...
+[14:54:02] [pool-3-thread-8/INFO]: [NoCheatPlus] Added hook: AllViolations(NCP) [1.0].
+[14:54:02] [Server thread/INFO]: [NoCheatPlus] Post-enable finished.
+[14:54:02] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.8.x(47)
+[14:54:02] [Server thread/INFO]: [AncientGates] Loading gates from disk
+[14:54:02] [Server thread/INFO]: [AncientGates] Loading gates into memory
+[14:54:02] [pool-3-thread-13/INFO]: [HideStream] Running updater ..
+[14:54:02] [Server thread/INFO]: [AncientGates] Enabled
+[14:54:08] [pool-3-thread-13/INFO]: [HideStream] No update was found.
+[14:54:09] [Server thread/INFO]: [SurvivalGames] Loading Arena: 1
+[14:54:09] [Server thread/INFO]: [SurvivalGames] 1456 254 -865
+[14:54:09] [Server thread/INFO]: [SurvivalGames] 383 0 -1889
+[14:54:09] [Server thread/INFO]: [SurvivalGames] Location{world=CraftWorld{name=world},x=1456.0,y=254.0,z=-865.0,pitch=0.0,yaw=0.0}
+[14:54:09] [Server thread/INFO]: [SurvivalGames] Location{world=CraftWorld{name=world},x=383.0,y=0.0,z=-1889.0,pitch=0.0,yaw=0.0}
+[14:54:09] [Server thread/INFO]: [SurvivalGames] Loading Arena: 2
+[14:54:09] [Server thread/INFO]: [SurvivalGames] 296 254 333
+[14:54:09] [Server thread/INFO]: [SurvivalGames] -432 0 -505
+[14:54:09] [Server thread/INFO]: [SurvivalGames] Location{world=CraftWorld{name=world},x=296.0,y=254.0,z=333.0,pitch=0.0,yaw=0.0}
+[14:54:09] [Server thread/INFO]: [SurvivalGames] Location{world=CraftWorld{name=world},x=-432.0,y=0.0,z=-505.0,pitch=0.0,yaw=0.0}
+[14:54:09] [Server thread/INFO]: [SurvivalGames] Loading Arena: 3
+[14:54:09] [Server thread/INFO]: [SurvivalGames] -134 254 1442
+[14:54:09] [Server thread/INFO]: [SurvivalGames] -734 0 745
+[14:54:09] [Server thread/INFO]: [SurvivalGames] Location{world=CraftWorld{name=world},x=-134.0,y=254.0,z=1442.0,pitch=0.0,yaw=0.0}
+[14:54:09] [Server thread/INFO]: [SurvivalGames] Location{world=CraftWorld{name=world},x=-734.0,y=0.0,z=745.0,pitch=0.0,yaw=0.0}
+[14:54:09] [Server thread/INFO]: [SurvivalGames] Loading Arena: 4
+[14:54:09] [Server thread/INFO]: [SurvivalGames] 754 254 1243
+[14:54:09] [Server thread/INFO]: [SurvivalGames] 78 0 719
+[14:54:09] [Server thread/INFO]: [SurvivalGames] Location{world=CraftWorld{name=world},x=754.0,y=254.0,z=1243.0,pitch=0.0,yaw=0.0}
+[14:54:09] [Server thread/INFO]: [SurvivalGames] Location{world=CraftWorld{name=world},x=78.0,y=0.0,z=719.0,pitch=0.0,yaw=0.0}
+[14:54:09] [Server thread/INFO]: [SurvivalGames] Loading Arena: 5
+[14:54:09] [Server thread/INFO]: [SurvivalGames] 1458 254 608
+[14:54:09] [Server thread/INFO]: [SurvivalGames] 813 0 -18
+[14:54:09] [Server thread/INFO]: [SurvivalGames] Location{world=CraftWorld{name=world},x=1458.0,y=254.0,z=608.0,pitch=0.0,yaw=0.0}
+[14:54:09] [Server thread/INFO]: [SurvivalGames] Location{world=CraftWorld{name=world},x=813.0,y=0.0,z=-18.0,pitch=0.0,yaw=0.0}
+[14:54:09] [Server thread/INFO]: [SurvivalGames] Loading Arena: 6
+[14:54:09] [Server thread/INFO]: [SurvivalGames] 133 254 -873
+[14:54:09] [Server thread/INFO]: [SurvivalGames] -891 4 -1896
+[14:54:09] [Server thread/INFO]: [SurvivalGames] Location{world=CraftWorld{name=world},x=133.0,y=254.0,z=-873.0,pitch=0.0,yaw=0.0}
+[14:54:09] [Server thread/INFO]: [SurvivalGames] Location{world=CraftWorld{name=world},x=-891.0,y=4.0,z=-1896.0,pitch=0.0,yaw=0.0}
+[14:54:09] [Server thread/INFO]: [SurvivalGames] Loading Arena: 7
+[14:54:09] [Server thread/INFO]: [SurvivalGames] -1139 254 -857
+[14:54:09] [Server thread/INFO]: [SurvivalGames] -1695 19 -1426
+[14:54:09] [Server thread/INFO]: [SurvivalGames] Location{world=CraftWorld{name=world},x=-1139.0,y=254.0,z=-857.0,pitch=0.0,yaw=0.0}
+[14:54:09] [Server thread/INFO]: [SurvivalGames] Location{world=CraftWorld{name=world},x=-1695.0,y=19.0,z=-1426.0,pitch=0.0,yaw=0.0}
+[14:54:09] [Server thread/INFO]: [SurvivalGames] Loading Arena: 8
+[14:54:09] [Server thread/INFO]: [SurvivalGames] -2041 254 -840
+[14:54:09] [Server thread/INFO]: [SurvivalGames] -2552 15 -1359
+[14:54:09] [Server thread/INFO]: [SurvivalGames] Location{world=CraftWorld{name=world},x=-2041.0,y=254.0,z=-840.0,pitch=0.0,yaw=0.0}
+[14:54:09] [Server thread/INFO]: [SurvivalGames] Location{world=CraftWorld{name=world},x=-2552.0,y=15.0,z=-1359.0,pitch=0.0,yaw=0.0}
+[14:54:09] [Server thread/INFO]: ItemStack{NETHER_STAR x 1}
+[14:54:09] [Server thread/INFO]: sharpness:4
+[14:54:09] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6546ms behind, skipping 130 tick(s)
+[14:54:23] [pool-3-thread-12/INFO]: [Metrics] Connection timed out: connect
+[14:55:02] [pool-3-thread-9/INFO]: [Metrics] Server returned HTTP response code: 504 for URL: http://mcstats.org/report/SurvivalGames
+[14:56:36] [Server thread/INFO]: TefelYT[/127.0.0.1:53350] logged in with entity id 85 at ([world]334.5, 6.0, 475.5)
+[14:56:39] [pool-3-thread-2/INFO]: [SG]Checking for updates
+[14:57:00] [pool-3-thread-2/WARN]: [SurvivalGames] [SurvivalGames] could not check for updates.
+[14:57:02] [Server thread/INFO]: TefelYT issued server command: /servers
+[14:57:05] [Server thread/INFO]: TefelYT issued server command: /servers
+[14:57:07] [Server thread/INFO]: TefelYT lost connection: Disconnected
+[14:57:07] [Server thread/INFO]: [0;34;1mСохранение мира...[m
+[14:57:07] [Server thread/INFO]: [AutoSaveWorld] Сохранение мира...
+[14:57:07] [Server thread/WARN]: A manual (plugin-induced) save has been detected while server is configured to auto-save. This may affect performance.
+[14:57:07] [Server thread/INFO]: [0;34;1mСохранение мира завершено.[m
+[14:57:07] [Server thread/INFO]: [AutoSaveWorld] Сохранение мира завершено.
+[14:59:40] [Server thread/INFO]: TefelYT[/127.0.0.1:53366] logged in with entity id 51187 at ([world]335.0422456385637, 6.0, 479.7532815749754)
+[14:59:43] [pool-3-thread-15/INFO]: [SG]Checking for updates
+[14:59:45] [Server thread/INFO]: TefelYT issued server command: /spawn
+[14:59:45] [Server thread/INFO]: [0;33;22m[21m[[0;31;1m[21mSpawnTP[0;33;22m[21m] [0;33;22mSent TefelYT to spawn[m
+[14:59:53] [Server thread/INFO]: TefelYT issued server command: /servers
+[15:00:00] [Server thread/INFO]: TefelYT lost connection: Disconnected
+[15:00:00] [Server thread/INFO]: [0;34;1mСохранение мира...[m
+[15:00:00] [Server thread/INFO]: [AutoSaveWorld] Сохранение мира...
+[15:00:00] [Server thread/INFO]: [0;34;1mСохранение мира завершено.[m
+[15:00:00] [Server thread/INFO]: [AutoSaveWorld] Сохранение мира завершено.
+[15:00:04] [pool-3-thread-15/WARN]: [SurvivalGames] [SurvivalGames] could not check for updates.
+[15:00:45] [Server thread/INFO]: Stopping the server
+[15:00:46] [Server thread/INFO]: Stopping server
+[15:00:46] [Server thread/INFO]: [AncientGates] Disabling AncientGates v2.0.6
+[15:00:46] [Server thread/INFO]: [AncientGates] Disabled
+[15:00:46] [Server thread/INFO]: [ChestCommands] Disabling ChestCommands v3.1.4
+[15:00:46] [Server thread/INFO]: [ColoredTags] Disabling ColoredTags v2.1.3
+[15:00:46] [Server thread/INFO]: [NoCheatPlus] Disabling NoCheatPlus v3.13.8-SNAPSHOT-sMD5NET-b930
+[15:00:46] [Server thread/INFO]: [NoCheatPlus] Removed hook: AllViolations(NCP) [1.0].
+[15:00:46] [Server thread/INFO]: Version 3.13.8-SNAPSHOT-sMD5NET-b930 is disabled.
+[15:00:46] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v5.7.5
+[15:00:46] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v3.7-SNAPSHOT-b234
+[15:00:46] [Server thread/INFO]: [ChatManager] Disabling ChatManager v1.19.1
+[15:00:46] [Server thread/INFO]: [ChatManager] ChatManager disabled!
+[15:00:46] [Server thread/INFO]: [HideStream] Disabling HideStream v3.8
+[15:00:46] [Server thread/INFO]: [HideStream] Version 3.8 disabled.
+[15:00:46] [Server thread/INFO]: [Vault] Disabling Vault v1.2.25-b320
+[15:00:46] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v1.5.2
+[15:00:46] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[15:00:46] [Server thread/INFO]: [NoWither] Disabling NoWither v1.2
+[15:00:46] [Server thread/INFO]: [NoWither] NoWither has been disabled.
+[15:00:46] [Server thread/INFO]: [SurvivalGames] Disabling SurvivalGames v0.5.8.54
+[15:00:46] [Server thread/INFO]: [SurvivalGames] Arena 1 reset. Rolled back 6 blocks in 1 iterations (100 blocks per iteration Total time spent rolling back was 64ms)
+[15:00:46] [Server thread/INFO]: [SurvivalGames] Arena 2 reset. Rolled back 98 blocks in 1 iterations (100 blocks per iteration Total time spent rolling back was 162ms)
+[15:00:46] [Server thread/INFO]: [SurvivalGames] Arena 3 reset. Rolled back 0 blocks in 1 iterations (100 blocks per iteration Total time spent rolling back was 0ms)
+[15:00:46] [Server thread/INFO]: [SurvivalGames] Arena 4 reset. Rolled back 4 blocks in 1 iterations (100 blocks per iteration Total time spent rolling back was 65ms)
+[15:00:46] [Server thread/INFO]: [SurvivalGames] Arena 5 reset. Rolled back 0 blocks in 1 iterations (100 blocks per iteration Total time spent rolling back was 0ms)
+[15:00:46] [Server thread/INFO]: [SurvivalGames] Arena 6 reset. Rolled back 2 blocks in 1 iterations (100 blocks per iteration Total time spent rolling back was 80ms)
+[15:00:46] [Server thread/INFO]: [SurvivalGames] Arena 7 reset. Rolled back 0 blocks in 1 iterations (100 blocks per iteration Total time spent rolling back was 0ms)
+[15:00:46] [Server thread/INFO]: [SurvivalGames] Arena 8 reset. Rolled back 2 blocks in 1 iterations (100 blocks per iteration Total time spent rolling back was 72ms)
+[15:00:46] [Server thread/INFO]: [SurvivalGames] SurvivalGames version 0.5.8.54 has now been disabled and reset
+[15:00:46] [Server thread/INFO]: [AutoMessage] Disabling AutoMessage v2.0.5
+[15:00:46] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.19.5
+[15:00:46] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[15:00:46] [Server thread/INFO]: Permissions file successfully reloaded
+[15:00:46] [Server thread/INFO]: [PermissionsEx] v1.19.5 disabled successfully.
+[15:00:46] [Server thread/INFO]: [AntiAd] Disabling AntiAd v2.1
+[15:00:46] [Server thread/INFO]: [AntiAd] AntiAd Version 2.1 is now Disabled
+[15:00:46] [Server thread/INFO]: [SmokeTrail] Disabling SmokeTrail v8.0
+[15:00:46] [Server thread/INFO]: [Smoke Trail] is now disabled
+[15:00:46] [Server thread/INFO]: [SpawnTP] Disabling SpawnTP v1.6
+[15:00:46] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v5.5.8-SNAPSHOT
+[15:00:46] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v10.8
+[15:00:46] [Server thread/INFO]: [AutoSaveWorld] Disabling AutoSaveWorld v3.9
+[15:00:47] [Server thread/INFO]: [AutoSaveWorld] Version 3.9 is disabled!
+[15:00:47] [Server thread/INFO]: Saving players
+[15:00:47] [Server thread/INFO]: Saving worlds
+[15:00:47] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
