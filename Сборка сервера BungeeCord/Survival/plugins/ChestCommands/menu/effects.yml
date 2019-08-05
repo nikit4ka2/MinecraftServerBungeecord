@@ -1,0 +1,203 @@
+######################
+#+                  +#
+#       TefelYT      #
+#+                  +#
+######################
+
+
+menu-settings:
+  name: '              &0&nМеню эффектов'
+  rows: 6
+  command: 'effects'
+
+  
+1:
+  COMMAND: 'trail smoke'
+  NAME: '&7Дым'
+  LORE:
+    - '&7Включить эффект дыма'
+    - ''
+    - '&7Только от &a[VIP]'
+  ID: 380
+  KEEP-OPEN: false
+  POSITION-X: 2
+  POSITION-Y: 2
+  
+  
+2:
+  COMMAND: 'trail ender'
+  NAME: '&2Эндер'
+  LORE:
+    - '&7Включить эффект эндера'
+    - ''
+    - '&7Только от &a[VIP]'
+  ID: 381
+  KEEP-OPEN: false
+  POSITION-X: 3
+  POSITION-Y: 2
+  
+  
+3:
+  COMMAND: 'trail fire'
+  NAME: '&4Огонь'
+  LORE:
+    - '&7Включить эффект огня'
+    - ''
+    - '&7Только от &a[VIP]'
+  ID: 377
+  KEEP-OPEN: false
+  POSITION-X: 4
+  POSITION-Y: 2
+  
+  
+4:
+  COMMAND: 'trail flowers'
+  NAME: '&eЦветы'
+  LORE:
+    - '&7Включить эффект цветов'
+    - ''
+    - '&7Только от &a[VIP&6+&a]'
+  ID: 38
+  KEEP-OPEN: false
+  POSITION-X: 5
+  POSITION-Y: 2
+  
+  
+5:
+  COMMAND: 'trail loot'
+  NAME: '&bДроп'
+  LORE:
+    - '&7Включить эффект дропа'
+    - ''
+    - '&7Только от &a[VIP&6+&a]'
+  ID: 264
+  KEEP-OPEN: false
+  POSITION-X: 6
+  POSITION-Y: 2
+  
+  
+6:
+  COMMAND: 'trail stars'
+  NAME: '&eЗвезды'
+  LORE:
+    - '&7Звездный эффект'
+    - ''
+    - '&7Только от &a[VIP&6+&a]'
+  ID: 399
+  KEEP-OPEN: false
+  POSITION-X: 7
+  POSITION-Y: 2
+  
+  
+7:
+  COMMAND: 'trail hearts'
+  NAME: '&cСердечки'
+  LORE:
+    - '&7Включить сердечки'
+    - ''
+    - '&7Только от &a[VIP&6+&a]'
+  ID: 260
+  KEEP-OPEN: false
+  POSITION-X: 8
+  POSITION-Y: 2
+  
+  
+8:
+  COMMAND: 'trail disco'
+  NAME: '&2Диско'
+  LORE:
+    - '&7Включить эффект диско'
+    - ''
+    - '&7Только от &b[MVP]'
+  ID: 2256
+  KEEP-OPEN: false
+  POSITION-X: 2
+  POSITION-Y: 3
+  
+  
+9:
+  COMMAND: 'trail sparks'
+  NAME: '&eИскры'
+  LORE:
+    - '&7Включить эффект искры'
+    - ''
+    - '&7Только от &b[MVP]'
+  ID: 353
+  KEEP-OPEN: false
+  POSITION-X: 3
+  POSITION-Y: 3
+  
+  
+10:
+  COMMAND: 'trail blood'
+  NAME: '&cКровоточение'
+  LORE:
+    - '&7Включить эффект кровоточения'
+    - ''
+    - '&7Только от &b[MVP]'
+  ID: 331
+  KEEP-OPEN: false
+  POSITION-X: 4
+  POSITION-Y: 3
+  
+  
+11:
+  COMMAND: 'trail music'
+  NAME: '&9Музыка'
+  LORE:
+    - '&7Включить музыкальный эффект'
+    - ''
+    - '&7Только от &b[MVP&c+&b]'
+  ID: 84
+  KEEP-OPEN: false
+  POSITION-X: 5
+  POSITION-Y: 3
+  
+  
+12:
+  COMMAND: 'trail anger'
+  NAME: '&cЗло'
+  LORE:
+    - '&7Включить эффект зла'
+    - ''
+    - '&7Только от &b[MVP&c+&b]'
+  ID: 397
+  KEEP-OPEN: false
+  POSITION-X: 6
+  POSITION-Y: 3
+  
+  
+13:
+  COMMAND: 'trail magma'
+  NAME: '&4Магма'
+  LORE:
+    - '&7Включить эффект магмы'
+    - ''
+    - '&7Только от &b[MVP&c+&b]'
+  ID: 378
+  KEEP-OPEN: false
+  POSITION-X: 7
+  POSITION-Y: 3
+  
+  
+14:
+  COMMAND: 'trail happy'
+  NAME: '&aЭффект счастья'
+  LORE:
+    - '&7Включить эффект счастья'
+    - ''
+    - '&7Только от &b[MVP&c+&b]'
+  ID: 91
+  KEEP-OPEN: false
+  POSITION-X: 8
+  POSITION-Y: 3
+  
+  
+15:
+  COMMAND: 'trail off'
+  NAME: '&9Выключить эффекты'
+  LORE:
+  ID: 69
+  KEEP-OPEN: false
+  POSITION-X: 5
+  POSITION-Y: 5

@@ -1,0 +1,80 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&4Меню сервера'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 1
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  command: 'menu'
+
+  # open-with-item - OPTIONAL (you can remove this or
+  # set the item-id/data-value to 0)
+  # In this case it will open with a book (right click)
+  open-with-item:
+    item-id: 345
+    left-click: false
+    right-click: true
+#   data-value: 0
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+spawn:
+  COMMAND: 'spawn'
+  NAME: '&9[+] Спавн [+]'
+  LORE:
+  ID: lava_bucket
+  POSITION-X: 5
+  POSITION-Y: 1
+
+
+home:
+  COMMAND: 'home'
+  NAME: '&a[+] Домой [+]'
+  LORE:
+  ID: book
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 1
+
+
+donate:
+  COMMAND: 'open:donate.yml'
+  NAME: '&e[+] Донат [+]'
+  LORE:
+  ID: diamond
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 1
+
+
+kit:
+  COMMAND: 'kit start'
+  NAME: '&c[+] Начальный набор [+]'
+  LORE:
+  ID: 272
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 1
+
+
+shop:
+  COMMAND: 'warp shop'
+  NAME: '&d[+] Магазин [+]'
+  LORE:
+  ID: emerald
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 1
