@@ -1,0 +1,255 @@
+[14:53:29] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[14:53:29] [Server thread/INFO]: Loading properties
+[14:53:29] [Server thread/INFO]: Default game type: SURVIVAL
+[14:53:29] [Server thread/INFO]: Generating keypair
+[14:53:29] [Server thread/INFO]: Starting Minecraft server on 127.0.0.1:25566
+[14:53:29] [Server thread/INFO]: Using default channel type
+[14:53:32] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-18fbb24 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[14:53:33] [Server thread/INFO]: [PermissionsEx] sql backend registered!
+[14:53:33] [Server thread/INFO]: [PermissionsEx] file backend registered!
+[14:53:33] [Server thread/INFO]: [PermissionsEx] PermissionEx plugin initialized.
+[14:53:34] [Server thread/INFO]: [INFO][NoCheatPlus] Thu Oct 11 14:53:34 YEKT 2018
+[14:53:34] [Server thread/INFO]: Player instances are stored for efficiency.
+[14:53:35] [Server thread/INFO]: [MineHiders] Loading MineHiders v1.0
+[14:53:35] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v5.5.8-SNAPSHOT
+[14:53:35] [Server thread/INFO]: [SpawnTP] Loading SpawnTP v1.6
+[14:53:35] [Server thread/INFO]: [SmokeTrail] Loading SmokeTrail v8.0
+[14:53:35] [Server thread/INFO]: [BarAPI] Loading BarAPI v3.3
+[14:53:35] [Server thread/INFO]: [AutoMessage] Loading AutoMessage v2.0.5
+[14:53:35] [Server thread/INFO]: [NoWither] Loading NoWither v1.2
+[14:53:35] [Server thread/INFO]: [BowLobby] Loading BowLobby v2.1
+[14:53:35] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v5.7.5
+[14:53:35] [Server thread/INFO]: [AutoSaveWorld] Loading AutoSaveWorld v3.9
+[14:53:35] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v10.8
+[14:53:35] [Server thread/INFO]: [AntiAd] Loading AntiAd v2.1
+[14:53:35] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.19.5
+[14:53:35] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[14:53:35] [Server thread/INFO]: Permissions file successfully reloaded
+[14:53:35] [Server thread/INFO]: [MicroJump] Loading MicroJump v1.0.4
+[14:53:35] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v1.5.2
+[14:53:35] [Server thread/INFO]: [ViaVersion] ViaVersion 1.5.2 is now loaded, injecting!
+[14:53:36] [Server thread/INFO]: [ViaVersion] Loading block mapping...
+[14:53:37] [Server thread/INFO]: [ViaVersion] Loading item mapping...
+[14:53:37] [Server thread/INFO]: [ViaVersion] Loading new tags...
+[14:53:37] [Server thread/INFO]: [ViaVersion] Loading enchantments...
+[14:53:37] [Server thread/INFO]: [ViaVersion] Loading sound mapping...
+[14:53:38] [Server thread/INFO]: [CustomJoinItems] Loading CustomJoinItems v1.5.1
+[14:53:38] [Server thread/INFO]: [Vault] Loading Vault v1.2.25-b320
+[14:53:38] [Server thread/INFO]: [HideStream] Loading HideStream v3.8
+[14:53:38] [Server thread/INFO]: [ChatManager] Loading ChatManager v1.19.1
+[14:53:38] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v3.7-SNAPSHOT-b234
+[14:53:38] [Server thread/INFO]: [NoCheatPlus] Loading NoCheatPlus v3.13.8-SNAPSHOT-sMD5NET-b930
+[14:53:38] [Server thread/INFO]: onLoad: Early set up of static API, configuration, logging.
+[14:53:39] [Server thread/INFO]: [NoCheatPlus] Logging system initialized.
+[14:53:39] [Server thread/INFO]: [NoCheatPlus] Detected Minecraft version: 1.8.8
+[14:53:39] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.16-SNAPSHOT (build 1267)
+[14:53:39] [Server thread/INFO]: [ColoredTags] Loading ColoredTags v2.1.3
+[14:53:39] [Server thread/INFO]: [ChestCommands] Loading ChestCommands v3.1.4
+[14:53:39] [Server thread/INFO]: [BossMessage] Loading BossMessage v2.0
+[14:53:39] [Server thread/INFO]: [CommandNPC] Loading CommandNPC v1.7
+[14:53:39] [Server thread/INFO]: [AuthMe] Loading AuthMe v3.5-SNAPSHOT
+[14:53:39] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v10.8
+[14:53:39] [Server thread/INFO]: ----------------------------
+[14:53:39] [Server thread/INFO]:   SkinsRestorer Updater
+[14:53:39] [Server thread/INFO]:  
+[14:53:39] [Server thread/INFO]: Could not connect to spigotmc.org
+[14:53:39] [Server thread/INFO]: to check for updates! 
+[14:53:39] [Server thread/INFO]:  
+[14:53:39] [Server thread/INFO]: ----------------------------
+[14:53:39] [Server thread/ERROR]: Error occurred while enabling SkinsRestorer v10.8 (Is it up to date?)
+java.lang.NullPointerException
+	at skinsrestorer.bukkit.SkinsRestorer.onEnable(SkinsRestorer.java:89) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321) ~[spigot.jar:git-Bukkit-18fbb24]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332) [spigot.jar:git-Bukkit-18fbb24]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:404) [spigot.jar:git-Bukkit-18fbb24]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:342) [spigot.jar:git-Bukkit-18fbb24]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:314) [spigot.jar:git-Bukkit-18fbb24]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.<init>(CraftServer.java:252) [spigot.jar:git-Bukkit-18fbb24]
+	at net.minecraft.server.v1_8_R3.PlayerList.<init>(PlayerList.java:69) [spigot.jar:git-Bukkit-18fbb24]
+	at net.minecraft.server.v1_8_R3.DedicatedPlayerList.<init>(SourceFile:14) [spigot.jar:git-Bukkit-18fbb24]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:179) [spigot.jar:git-Bukkit-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:504) [spigot.jar:git-Bukkit-18fbb24]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[14:53:39] [Server thread/INFO]: [Vault] Enabling Vault v1.2.25-b320
+[14:53:39] [Server thread/INFO]: [Vault][Permission] PermissionsEx found: Waiting
+[14:53:39] [Server thread/INFO]: [Vault][Permission] SuperPermissions loaded as backup permission system.
+[14:53:39] [Server thread/INFO]: [Vault][Chat] PermissionsEx found: Waiting
+[14:53:39] [Server thread/INFO]: [Vault] Enabled Version 1.2.25-b320
+[14:53:39] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
+[14:53:39] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v3.7-SNAPSHOT-b234
+[14:53:39] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[14:53:40] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:53:40] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:53:40] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:53:40] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:53:40] [Server thread/INFO]: Preparing level "world"
+[14:53:40] [Server thread/INFO]: Preparing start region for level 0 (Seed: 6494152414920349669)
+[14:53:41] [Server thread/INFO]: [MineHiders] Enabling MineHiders v1.0
+[14:53:41] [Server thread/INFO]: [0;32;1m[MineHiders] Плагин включен. ([0;33;1m61 ms[0;32;1m)[m
+[14:53:41] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v5.5.8-SNAPSHOT
+[14:53:41] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[14:53:42] [Server thread/INFO]: [SpawnTP] Enabling SpawnTP v1.6
+[14:53:42] [Server thread/INFO]: [SmokeTrail] Enabling SmokeTrail v8.0
+[14:53:42] [Server thread/INFO]: [Smoke Trail]  is now enabled!
+[14:53:42] [Server thread/WARN]: [SmokeTrail] Could not save config.yml to plugins\SmokeTrail\config.yml because config.yml already exists.
+[14:53:42] [Server thread/INFO]: Smoke Trail Metrics loaded
+[14:53:42] [Server thread/INFO]: [BarAPI] Enabling BarAPI v3.3
+[14:53:42] [Server thread/INFO]: [BarAPI] Loaded
+[14:53:42] [Server thread/INFO]: [AutoMessage] Enabling AutoMessage v2.0.5
+[14:53:42] [Server thread/INFO]: [NoWither] Enabling NoWither v1.2
+[14:53:42] [Server thread/INFO]: [NoWither] NoWither has been enabled.
+[14:53:42] [Server thread/INFO]: [BowLobby] Enabling BowLobby v2.1
+[14:53:42] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v5.7.5
+[14:53:42] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[14:53:42] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[14:53:42] [Server thread/INFO]: [WorldGuard] (world) Lava fire is blocked.
+[14:53:42] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[14:53:42] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[14:53:42] [Server thread/INFO]: [WorldGuard] 1 regions loaded for 'world'
+[14:53:42] [Server thread/INFO]: [AutoSaveWorld] Enabling AutoSaveWorld v3.9
+[14:53:42] [Server thread/INFO]: [AutoSaveWorld] Version 3.9 is enabled: c96dd7d0-d76b-4572-af4d-b071b2a975c1
+[14:53:42] [Server thread/INFO]: [AntiAd] Enabling AntiAd v2.1
+[14:53:42] [Server thread/WARN]: [AntiAd] Your config contains a error with the langugage (it isn't a valid languge)
+[14:53:42] [Thread-9/INFO]: [AutoSaveWorld] AutoBackupThread Started: Interval is 21600 seconds, Warn Times are 0
+[14:53:42] [Thread-8/INFO]: [AutoSaveWorld] AutoSaveThread Started: Interval is 300 seconds, Warn Times are 0
+[14:53:42] [Server thread/INFO]: [AntiAd] AntiAd Version 2.1 is now Enabled
+[14:53:42] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.19.5
+[14:53:42] [Server thread/INFO]: [PermissionsEx] Superperms support enabled.
+[14:53:42] [Server thread/INFO]: [PermissionsEx] v1.19.5 enabled
+[14:53:42] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[14:53:42] [Server thread/INFO]: [Vault][Chat] PermissionsEx_Chat hooked.
+[14:53:42] [Server thread/INFO]: [MicroJump] Enabling MicroJump v1.0.4
+[14:53:42] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v1.5.2
+[14:53:42] [Server thread/INFO]: [ViaVersion] You have anti-xray on in your config, since you're not using spigot it won't fix xray!
+[14:53:42] [Server thread/INFO]: [CustomJoinItems] Enabling CustomJoinItems v1.5.1
+[14:53:42] [Server thread/INFO]: [HideStream] Enabling HideStream v3.8
+[14:53:43] [Server thread/INFO]: [HideStream] Version 3.8 enabled.
+[14:53:43] [Server thread/INFO]: [ChatManager] Enabling ChatManager v1.19.1
+[14:53:43] [Server thread/INFO]: [ChatManager] ChatManager enabled!
+[14:53:43] [Server thread/INFO]: [NoCheatPlus] Enabling NoCheatPlus v3.13.8-SNAPSHOT-sMD5NET-b930
+[14:53:43] [Server thread/INFO]: [NoCheatPlus] McAccess set to: 1.8.4-1.8.8 / Spigot-CB-1.8_R3
+[14:53:43] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.5 blocks.
+[14:53:43] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.6.1 blocks.
+[14:53:43] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.7.2 blocks.
+[14:53:43] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.8 blocks.
+[14:53:43] [Server thread/INFO]: [NoCheatPlus] Inventory checks: FastConsume is available, disabled InstantEat.
+[14:53:43] [Server thread/INFO]: [NoCheatPlus] Adding packet level hooks for ProtocolLib (MC 1.8.8)...
+[14:53:43] [Server thread/INFO]: [NoCheatPlus] Available (and activated) packet level hooks: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter | SoundDistance
+[14:53:43] [Server thread/WARN]: [NoCheatPlus] Your configuration might be outdated.
+Some settings could have changed, you should regenerate it!
+[14:53:43] [Server thread/INFO]: [NoCheatPlus] Version 3.13.8-SNAPSHOT-sMD5NET-b930 is enabled.
+[14:53:43] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.16-SNAPSHOT (build 1267)
+[14:53:43] [Server thread/ERROR]: [Citizens] Missing preferred location bundle.
+[14:53:44] [Server thread/INFO]: [ColoredTags] Enabling ColoredTags v2.1.3
+[14:53:44] [Server thread/INFO]: [ChestCommands] Enabling ChestCommands v3.1.4
+[14:53:44] [Server thread/WARN]: [ChestCommands] Vault with a compatible economy plugin was not found! Icons with a PRICE or commands that give money will not work.
+[14:53:44] [Server thread/INFO]: [ChestCommands] Hooked BarAPI
+[14:53:44] [Server thread/INFO]: [BossMessage] Enabling BossMessage v2.0
+[14:53:44] [Server thread/WARN]: [BossMessage] Vault is either not installed, or not enabled! Using economy and tag %rank% will not be possible!
+[14:53:44] [Server thread/WARN]: [BossMessage] WorldGuard and/or WorldGuardRegionEvents are either not installed, or not enabled! Having per-region messages will not be possible!
+[14:53:46] [Thread-16/WARN]: [BossMessage] The updater could not find any files for the project id 64888
+[14:53:46] [Server thread/INFO]: [CommandNPC] Enabling CommandNPC v1.7
+[14:53:46] [Server thread/INFO]: Injecting command info into Citizens.[m
+[14:53:46] [Server thread/INFO]: [AuthMe] Enabling AuthMe v3.5-SNAPSHOT
+[14:53:47] [Server thread/INFO]: [AuthMe] Loading Configuration File...
+[14:53:47] [Server thread/INFO]: [AuthMe] Set Language: ru
+[14:53:47] [Server thread/INFO]: [AuthMe] Vault plugin detected, hook with PermissionsEx system
+[14:53:47] [Server thread/INFO]: [AuthMe] [LICENSE] This product includes GeoLite data created by MaxMind, available from http://www.maxmind.com
+[14:53:47] [Server thread/INFO]: [AuthMe] [SPONSOR] AuthMe is sponsored and hook perfectly with server hosting VERYGAMES, rent your server for only 1.99$/months
+[14:53:47] [Server thread/INFO]: [AuthMe] [SPONSOR] Look Minecraft and other offers on www.verygames.net ! 
+[14:53:47] [Server thread/INFO]: [AuthMe] Authme 3.5-SNAPSHOT enabled
+[14:53:48] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:53:48] [Server thread/INFO]: Done (8,395s)! For help, type "help" or "?"
+[14:53:48] [Server thread/INFO]: [NoCheatPlus] Post-enable running...
+[14:53:49] [pool-3-thread-11/INFO]: [NoCheatPlus] Added hook: AllViolations(NCP) [1.0].
+[14:53:49] [pool-3-thread-9/INFO]: [HideStream] Running updater ..
+[14:53:49] [Server thread/INFO]: [NoCheatPlus] Post-enable finished.
+[14:53:49] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.8.x(47)
+[14:53:49] [Server thread/INFO]: [0;33;22m[[0;33;1mCJItems[0;33;22m] [0;33;1mFound an update: v1.5.2   [0;37;1m(Your version: v1.5.1)[m
+[14:53:49] [Server thread/INFO]: [0;33;22m[[0;33;1mCJItems[0;33;22m] [0;37;1mType "[0;33;1m/cji update[0;37;1m" or download it from:[m
+[14:53:49] [Server thread/INFO]: [0;33;22m[[0;33;1mCJItems[0;33;22m] [0;37;1mdev.bukkit.org/bukkit-plugins/custom-join-items[m
+[14:53:50] [pool-3-thread-9/INFO]: [HideStream] No update was found.
+[14:53:50] [Server thread/INFO]: [Citizens] Loaded 5 NPCs.
+[14:54:09] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4173ms behind, skipping 83 tick(s)
+[14:54:10] [pool-3-thread-14/INFO]: [Metrics] Connection timed out: connect
+[14:54:52] [Server thread/INFO]: TefelYT[/127.0.0.1:53340] logged in with entity id 289 at ([world]0.7286659659274495, 73.0, -18.10299980756082)
+[14:55:11] [Server thread/WARN]: [WorldEdit] No compatible nms block class found.
+[14:55:11] [Server thread/INFO]: TefelYT issued server command: /servers
+[14:55:12] [Server thread/INFO]: TefelYT issued server command: /servers
+[14:55:14] [Server thread/INFO]: TefelYT lost connection: Disconnected
+[14:55:14] [Server thread/INFO]: [0;34;1mСохранение мира...[m
+[14:55:14] [Server thread/INFO]: [AutoSaveWorld] Сохранение мира...
+[14:55:14] [Server thread/WARN]: A manual (plugin-induced) save has been detected while server is configured to auto-save. This may affect performance.
+[14:55:14] [Server thread/INFO]: [0;34;1mСохранение мира завершено.[m
+[14:55:14] [Server thread/INFO]: [AutoSaveWorld] Сохранение мира завершено.
+[14:55:14] [Server thread/INFO]: 1234
+[14:58:35] [Server thread/INFO]: TefelYT[/127.0.0.1:53356] logged in with entity id 2276 at ([world]-0.10414871888727459, 75.15814676123665, -18.775239207492525)
+[14:58:51] [Server thread/INFO]: [0;34;1mСохранение мира...[m
+[14:58:51] [Server thread/INFO]: [AutoSaveWorld] Сохранение мира...
+[14:58:51] [Server thread/INFO]: [0;34;1mСохранение мира завершено.[m
+[14:58:51] [Server thread/INFO]: [AutoSaveWorld] Сохранение мира завершено.
+[14:58:54] [Server thread/INFO]: TefelYT issued server command: /weather clear
+[14:58:54] [Server thread/INFO]: [TefelYT: Changing to clear weather]
+[14:59:02] [Server thread/INFO]: TefelYT issued server command: /spawn
+[14:59:02] [Server thread/INFO]: [0;33;22m[21m[[0;31;1m[21mSpawnTP[0;33;22m[21m] [0;33;22mSent TefelYT to spawn[m
+[14:59:05] [Server thread/INFO]: TefelYT issued server command: /servers
+[14:59:07] [Server thread/INFO]: TefelYT lost connection: Disconnected
+[14:59:07] [Server thread/INFO]: [0;34;1mСохранение мира...[m
+[14:59:07] [Server thread/INFO]: [AutoSaveWorld] Сохранение мира...
+[14:59:07] [Server thread/INFO]: [0;34;1mСохранение мира завершено.[m
+[14:59:07] [Server thread/INFO]: [AutoSaveWorld] Сохранение мира завершено.
+[14:59:07] [Server thread/INFO]: 1234
+[15:00:09] [Server thread/INFO]: TefelYT[/127.0.0.1:53371] logged in with entity id 4832 at ([world]0.5, 71.5, 0.5)
+[15:00:31] [Server thread/INFO]: TefelYT issued server command: /spawn
+[15:00:31] [Server thread/INFO]: [0;33;22m[21m[[0;31;1m[21mSpawnTP[0;33;22m[21m] [0;33;22mSent TefelYT to spawn[m
+[15:00:33] [Server thread/INFO]: TefelYT lost connection: Disconnected
+[15:00:33] [Server thread/INFO]: [0;34;1mСохранение мира...[m
+[15:00:33] [Server thread/INFO]: [AutoSaveWorld] Сохранение мира...
+[15:00:33] [Server thread/INFO]: [0;34;1mСохранение мира завершено.[m
+[15:00:33] [Server thread/INFO]: [AutoSaveWorld] Сохранение мира завершено.
+[15:00:33] [Server thread/INFO]: 1234
+[15:00:41] [Server thread/INFO]: Stopping the server
+[15:00:41] [Server thread/INFO]: Stopping server
+[15:00:41] [Server thread/INFO]: [AuthMe] Disabling AuthMe v3.5-SNAPSHOT
+[15:00:41] [Server thread/INFO]: [CommandNPC] Disabling CommandNPC v1.7
+[15:00:41] [Server thread/INFO]: [BossMessage] Disabling BossMessage v2.0
+[15:00:41] [Server thread/INFO]: [ChestCommands] Disabling ChestCommands v3.1.4
+[15:00:41] [Server thread/INFO]: [ColoredTags] Disabling ColoredTags v2.1.3
+[15:00:41] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.16-SNAPSHOT (build 1267)
+[15:00:41] [Server thread/INFO]: [NoCheatPlus] Disabling NoCheatPlus v3.13.8-SNAPSHOT-sMD5NET-b930
+[15:00:41] [Server thread/INFO]: [NoCheatPlus] Removed hook: AllViolations(NCP) [1.0].
+[15:00:41] [Server thread/INFO]: Version 3.13.8-SNAPSHOT-sMD5NET-b930 is disabled.
+[15:00:41] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v3.7-SNAPSHOT-b234
+[15:00:41] [Server thread/INFO]: [ChatManager] Disabling ChatManager v1.19.1
+[15:00:41] [Server thread/INFO]: [ChatManager] ChatManager disabled!
+[15:00:41] [Server thread/INFO]: [HideStream] Disabling HideStream v3.8
+[15:00:41] [Server thread/INFO]: [HideStream] Version 3.8 disabled.
+[15:00:41] [Server thread/INFO]: [Vault] Disabling Vault v1.2.25-b320
+[15:00:41] [Server thread/INFO]: [CustomJoinItems] Disabling CustomJoinItems v1.5.1
+[15:00:41] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v1.5.2
+[15:00:41] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[15:00:41] [Server thread/INFO]: [MicroJump] Disabling MicroJump v1.0.4
+[15:00:41] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.19.5
+[15:00:41] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[15:00:41] [Server thread/INFO]: Permissions file successfully reloaded
+[15:00:41] [Server thread/INFO]: [PermissionsEx] v1.19.5 disabled successfully.
+[15:00:41] [Server thread/INFO]: [AntiAd] Disabling AntiAd v2.1
+[15:00:41] [Server thread/INFO]: [AntiAd] AntiAd Version 2.1 is now Disabled
+[15:00:41] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v10.8
+[15:00:41] [Server thread/INFO]: [AutoSaveWorld] Disabling AutoSaveWorld v3.9
+[15:00:42] [Server thread/INFO]: [AutoSaveWorld] Version 3.9 is disabled!
+[15:00:42] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v5.7.5
+[15:00:42] [Server thread/INFO]: [BowLobby] Disabling BowLobby v2.1
+[15:00:42] [Server thread/INFO]: [NoWither] Disabling NoWither v1.2
+[15:00:42] [Server thread/INFO]: [NoWither] NoWither has been disabled.
+[15:00:42] [Server thread/INFO]: [AutoMessage] Disabling AutoMessage v2.0.5
+[15:00:42] [Server thread/INFO]: [BarAPI] Disabling BarAPI v3.3
+[15:00:42] [Server thread/INFO]: [SmokeTrail] Disabling SmokeTrail v8.0
+[15:00:42] [Server thread/INFO]: [Smoke Trail] is now disabled
+[15:00:42] [Server thread/INFO]: [SpawnTP] Disabling SpawnTP v1.6
+[15:00:42] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v5.5.8-SNAPSHOT
+[15:00:42] [Server thread/INFO]: [MineHiders] Disabling MineHiders v1.0
+[15:00:42] [Server thread/INFO]: [0;32;1m[MineHiders] Плагин выключен.[m
+[15:00:42] [Server thread/INFO]: Saving players
+[15:00:42] [Server thread/INFO]: Saving worlds
+[15:00:42] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
