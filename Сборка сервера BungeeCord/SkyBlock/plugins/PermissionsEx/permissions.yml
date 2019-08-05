@@ -1,0 +1,226 @@
+groups:
+  User:
+    default: true
+    permissions:
+    - UralClans.*
+    - chatmanager.chat.global
+    - chestcommands.open.*
+    - chestcommands.command.open.*
+    - usb.island.*
+    - usb.party.*
+    - scoreboardstats.use
+    - automessage.receive.default
+    - authme.register
+    - -authme.logout
+    - authme.login
+    - authme.changepassword
+    - essentials.signs.create.color
+    - essentials.signs.use.balance
+    - essentials.signs.use.buy
+    - essentials.signs.use.sell
+    - essentials.signs.use.kit
+    - essentials.signs.use.repair
+    - essentials.signs.use.time
+    - essentials.signs.use.warp
+    - essentials.signs.use.weather
+    - essentials.suicide
+    - essentials.build
+    - essentials.balance
+    - essentials.kit
+    - essentials.list
+    - essentials.pay
+    - essentials.helpop
+    - essentials.motd
+    - essentials.msg
+    - essentials.rules
+    - essentials.spawn
+    - essentials.home
+    - essentials.sethome
+    - essentials.tpaccept
+    - essentials.tpdeny
+    - essentials.delhome
+    - essentials.tpa
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.kits.start
+    - essentials.suicide
+    - essentials.help
+    - worldguard.region.claim
+    - worldguard.region.select.own.
+    - worldedit.selection.hpos
+    - worldedit.selection.pos
+    - worldedit.wand
+    - worldedit.expand
+    - worldedit.selection.hpos
+    - worldedit.wand.toggle
+    - worldedit.wand
+    - worldedit.selection.expand
+    - worldguard.region.list.own
+    - worldguard.region.remove.own.*
+    - worldguard.region.wand
+    - worldguard.region.info
+    - worldguard.region.addowner.own.*
+    - worldguard.region.removeowner.own.*
+    - worldguard.region.addmember.own.*
+    - worldguard.region.removemember.own.*
+    - worldguard.region.info.member
+    - worldguard.region.info.own
+    - worldguard.region.info
+    - worldguard.region.flag.regions.own.*
+    - worldguard.region.flag.regions.member.*
+    - worldguard.region.flag.flags.mob-spawning.*
+    - worldguard.region.flag.flags.pvp.*
+    - -bukkit.command.op.give
+    - -essentials.gamemode.others
+    - -bukkit.command.gamemode
+    - -bukkit.command.stop
+    - -bukkit.command.reload
+    - -essentials.plugins
+    - -essentials.help
+    - -bukkit.command.plugins
+    - -bukkit.command.help
+    - -essentials.spawnmob
+    - -essentials.strike
+    - -essentials.help
+    prefix: '&8[&2Игрок&8]&3 '
+    suffix: ''
+  VIP:
+    default: false
+    inheritance:
+    - User
+    permissions:
+    - essentials.sethome.multiple.vip
+    - essentials.repair.enchanted
+    - essentials.repair.armor
+    - essentials.repair
+    - essentials.heal
+    - essentials.god
+    - essentials.joinfullserver
+    - essentials.fly
+    - essentials.kits.Vip
+    - nametag.group.vip
+    - smoketrail.use.smoke
+    - smoketrail.use.ender
+    - smoketrail.use.fire
+    - smoketrail.use.off
+    prefix: '&8[&6&lVIP&8]&f&l '
+    suffix: ''
+  VIP+:
+    default: false
+    inheritance:
+    - User
+    - VIP
+    permissions:
+    - essentials.gamemode
+    - essentials.itemspawn.item-all
+    - limitedcreative.nolimit.interact
+    - nametag.group.creative
+    - essentials.fly
+    - smoketrail.use.flowers
+    - smoketrail.use.loot
+    - smoketrail.use.stars
+    - smoketrail.use.hearts
+    prefix: '&8[&e&lVIP+&8]&f&l '
+    suffix: ''
+  MVP:
+    default: false
+    inheritance:
+    - User
+    - VIP
+    - VIP+
+    permissions:
+    - essentials.togglejail
+    - essentials.jail.exempt
+    - essentials.togglejail.offline
+    - essentials.setwarp
+    - essentials.tp.others
+    - essentials.tp
+    - essentials.time.set
+    - essentials.time
+    - essentials.weather
+    - essentials.mute
+    - essentials.tphere
+    - nocheatplus.admin.notify
+    - essentials.clearinventory
+    - essentials.enderchest
+    - essentials.invsee
+    - essentials.enchant
+    - essentials.enchantments.*
+    - essentials.enchantments.allowunsafe
+    - nametag.group.admin
+    - essentials.fly
+    - smoketrail.use.disco
+    - smoketrail.use.sparks
+    - smoketrail.use.blood
+    prefix: '&8[&4&lMVP&8]&f&l '
+    suffix: ''
+  MVP+:
+    default: false
+    inheritance:
+    - User
+    - VIP
+    - VIP+
+    - MVP
+    permissions:
+    - essentials.vanish.see
+    - essentials.vanish.interact
+    - essentials.vanish.effect
+    - essentials.vanish
+    - essentials.exp.give
+    - essentials.exp.set
+    - essentials.exp
+    - essentials.speed
+    - worldedit.region.walls
+    - essentials.clearinventory
+    - essentials.give
+    - essentials.itemspawn.exempt
+    - essentials.itemspawn.item-all
+    - essentials.enchantments.allowunsafe
+    - essentials.itemspawn.meta-title
+    - essentials.itemspawn.meta-author
+    - essentials.itemspawn.meta-lore
+    - essentials.itemspawn.meta-book
+    - essentials.itemspawn.meta-head
+    - essentials.itemspawn.meta-firework
+    - essentials.item
+    - essentials.more
+    - essentials.tree
+    - essentials.invsee
+    - essentials.invsee.modify
+    - essentials.invsee.preventmodify
+    - essentials.delwarp
+    - essentials.setwarp
+    - essentials.top
+    - essentials.tp
+    - essentials.tp.others
+    - essentials.tpa
+    - essentials.tpahere
+    - essentials.firework
+    - essentials.firework.fire
+    - nocheatplus.*
+    - worldedit.history.undo
+    - worldedit.region.set
+    - nametag.group.sadmin
+    - essentials.fly
+    - smoketrail.use.music
+    - smoketrail.use.anger
+    - smoketrail.use.magma
+    - smoketrail.use.happy
+    prefix: '&8[&2&lMVP+&8]&f&l '
+    suffix: ''
+  OSNOVATEL:
+    default: false
+    inheritance:
+    - User
+    - VIP
+    - VIP+
+    - MVP
+    - MVP+
+    permissions:
+    - '*'
+    prefix: '&2&l[&b&lОснователь&2&l]&4&l '
+    suffix: ''
+users:
+  TefelYT:
+    group:
+    - OSNOVATEL

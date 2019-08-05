@@ -1,0 +1,27 @@
+#  ----------------------------------------------------
+#  AutoMessage Configuration File
+#  ----------------------------------------------------
+#  Message Configuration:
+#     Messages are handled in lists to allow for advanced customization!
+#     Feel free to add color codes by using & in your messages!
+#     To split a message onto multiple lines use the \n delimiter!
+#     Lines starting with / will be run as a command!
+#     To add single apostrophes into a message use ''.
+#     For a complete tutorial go to http://dev.bukkit.org/server-mods/automessage.
+
+settings:
+  enabled: true
+  min-players: 0
+  log-to-console: false
+  auto-update: false
+message-lists:
+  default:
+    enabled: true
+    random: false
+    interval: 30
+    prefix: '&f[&c*&f] '
+    messages:
+    - '&fДонат покупать на сайте: &cВашСайт'
+    - '&fСборку сделал &cТЕФЕЛЬ &fспециально для &cYouTube'
+    - '&fНаша группа [В]Контакте - &cvk.com/group'
+    - '&fИнформация о донате &c/donate'
