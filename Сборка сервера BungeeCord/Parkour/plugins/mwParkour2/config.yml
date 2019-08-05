@@ -1,0 +1,449 @@
+options:
+  InvincibleWhileParkour: true
+  RespawnOnLava: true
+  RespawnOnWater: true
+  CheckpointEffect: true
+  removePotionsEffectsOnParkour: false
+  setFullHungerOnParkour: false
+  LastCheckpointTeleport: true
+  BroadcastOnRecord:
+    enable: true
+    message: '&7[Parkour&7]2&f>&8 Новый рекорд &7PLAYER &8на карте MAPNAME !'
+rewards:
+  enable: false
+  cooldown: 300
+  cooldownMessage: You will receive your next reward on this map in TIME
+  rewardIfBetterScore: true
+  money:
+    enable: false
+    amount: 10
+    message: '&bЗа прохождение паркура вы получили MONEYAMOUNT монет !'
+  command:
+    enable: false
+    cmd: give PLAYER 5 10
+    message: '&bYou have received 5 wood !'
+Parkour:
+  mapsNombre: 16
+  map1:
+    cp:
+      '1':
+        posX: 821.0
+        posY: 102.0
+        posZ: 955.0
+      '2':
+        posX: 865.0
+        posY: 98.0
+        posZ: 939.0
+      '3':
+        posX: 896.0
+        posY: 99.0
+        posZ: 956.0
+    world: world
+    mapName: Ender
+    mapCreator: TefelYT
+    nombreCp: 3
+    toggle: true
+    waterrespawn: true
+    lavarespawn: false
+    spawn:
+      posX: 820.1707607829455
+      posY: 102.0
+      posZ: 956.6177661778254
+      posPitch: -1.2142395
+      posYaw: 225.17409
+  map2:
+    cp:
+      '1':
+        posX: 826.0
+        posY: 98.0
+        posZ: 923.0
+      '2':
+        posX: 857.0
+        posY: 96.0
+        posZ: 924.0
+      '3':
+        posX: 891.0
+        posY: 99.0
+        posZ: 911.0
+    world: world
+    mapName: Nether
+    mapCreator: TefelYT
+    nombreCp: 3
+    toggle: true
+    waterrespawn: true
+    lavarespawn: false
+    spawn:
+      posX: 825.5
+      posY: 98.0
+      posZ: 923.5
+      posPitch: 3.0614617
+      posYaw: 269.36688
+  map3:
+    cp:
+      '1':
+        posX: 930.0
+        posY: 97.0
+        posZ: 955.0
+      '2':
+        posX: 933.0
+        posY: 98.0
+        posZ: 931.0
+    world: world
+    mapName: Shou
+    mapCreator: TefelYT
+    nombreCp: 2
+    toggle: true
+    waterrespawn: true
+    lavarespawn: false
+    spawn:
+      posX: 930.634323198874
+      posY: 97.0
+      posZ: 957.5126724174689
+      posPitch: -3.0669992
+      posYaw: 183.71133
+  map4:
+    cp:
+      '1':
+        posX: 922.0
+        posY: 38.0
+        posZ: 914.0
+      '2':
+        posX: 916.0
+        posY: 48.0
+        posZ: 912.0
+      '3':
+        posX: 916.0
+        posY: 68.0
+        posZ: 914.0
+    world: world
+    mapName: Tower
+    mapCreator: TefelYT
+    nombreCp: 3
+    toggle: true
+    waterrespawn: true
+    lavarespawn: false
+    spawn:
+      posX: 923.9156061924705
+      posY: 38.0
+      posZ: 914.397811461087
+      posPitch: -5.347332
+      posYaw: 90.78706
+  map5:
+    cp:
+      '1':
+        posX: 1059.0
+        posY: 71.0
+        posZ: 910.0
+      '2':
+        posX: 1059.0
+        posY: 80.0
+        posZ: 910.0
+    world: world
+    mapName: Sand
+    mapCreator: TefelYT
+    nombreCp: 2
+    toggle: true
+    waterrespawn: true
+    lavarespawn: false
+    spawn:
+      posX: 1062.3956347247486
+      posY: 71.0
+      posZ: 910.4220703948193
+      posPitch: -6.345013
+      posYaw: -271.23083
+  map6:
+    cp:
+      '1':
+        posX: 986.0
+        posY: 47.0
+        posZ: 921.0
+      '2':
+        posX: 986.0
+        posY: 49.0
+        posZ: 907.0
+      '3':
+        posX: 984.0
+        posY: 54.0
+        posZ: 902.0
+    world: world
+    mapName: Temple
+    mapCreator: TefelYT
+    nombreCp: 3
+    toggle: true
+    waterrespawn: true
+    lavarespawn: false
+    spawn:
+      posX: 986.480852341309
+      posY: 47.0
+      posZ: 923.2768385977934
+      posPitch: -2.069368
+      posYaw: -182.03387
+  map7:
+    cp:
+      '1':
+        posX: 977.0
+        posY: 73.0
+        posZ: 968.0
+      '2':
+        posX: 994.0
+        posY: 54.0
+        posZ: 983.0
+      '3':
+        posX: 1034.0
+        posY: 61.0
+        posZ: 1032.0
+    world: world
+    mapName: Mountain
+    mapCreator: TefelYT
+    nombreCp: 3
+    toggle: true
+    waterrespawn: true
+    lavarespawn: false
+    spawn:
+      posX: 977.4075061021341
+      posY: 73.0
+      posZ: 966.7527715149372
+      posPitch: -1.2142437
+      posYaw: -0.42768475
+  map8:
+    cp:
+      '1':
+        posX: 903.0
+        posY: 55.0
+        posZ: 986.0
+      '2':
+        posX: 952.0
+        posY: 55.0
+        posZ: 995.0
+    world: world
+    mapName: Library
+    mapCreator: TefelYT
+    nombreCp: 2
+    toggle: true
+    waterrespawn: true
+    lavarespawn: false
+    spawn:
+      posX: 899.2100378991042
+      posY: 55.0
+      posZ: 986.3133730789434
+      posPitch: 1.3511682
+      posYaw: -90.35851
+  map9:
+    cp:
+      '1':
+        posX: 1027.0
+        posY: 66.0
+        posZ: 1164.0
+      '2':
+        posX: 1045.0
+        posY: 66.0
+        posZ: 1067.0
+      '3':
+        posX: 1008.0
+        posY: 72.0
+        posZ: 1150.0
+    world: world
+    mapName: River
+    mapCreator: TefelYT
+    nombreCp: 3
+    toggle: true
+    waterrespawn: true
+    lavarespawn: false
+    spawn:
+      posX: 1027.5
+      posY: 66.0
+      posZ: 1166.5
+      posPitch: 0.49605718
+      posYaw: -176.7385
+  map10:
+    cp:
+      '1':
+        posX: 1074.0
+        posY: 150.0
+        posZ: 1332.0
+      '2':
+        posX: 1049.0
+        posY: 150.0
+        posZ: 1291.0
+      '3':
+        posX: 1102.0
+        posY: 146.0
+        posZ: 1291.0
+      '4':
+        posX: 1160.0
+        posY: 149.0
+        posZ: 1239.0
+    world: world
+    mapName: Jungle
+    mapCreator: TefelYT
+    nombreCp: 4
+    toggle: true
+    waterrespawn: true
+    lavarespawn: false
+    spawn:
+      posX: 1079.5
+      posY: 150.0
+      posZ: 1332.5
+      posPitch: -8.05529
+      posYaw: 89.93152
+  map11:
+    cp:
+      '1':
+        posX: 1249.0
+        posY: 110.0
+        posZ: 1158.0
+      '2':
+        posX: 1243.0
+        posY: 109.0
+        posZ: 1181.0
+      '3':
+        posX: 1223.0
+        posY: 108.0
+        posZ: 1201.0
+    world: world
+    mapName: Sand2
+    mapCreator: TefelYT
+    nombreCp: 3
+    toggle: true
+    waterrespawn: true
+    lavarespawn: false
+    spawn:
+      posX: 1252.4612232361762
+      posY: 110.0
+      posZ: 1158.6560195053478
+      posPitch: -1.0717214
+      posYaw: 93.352
+  map12:
+    cp:
+      '1':
+        posX: 1225.0
+        posY: 63.0
+        posZ: 1018.0
+      '2':
+        posX: 1213.0
+        posY: 46.0
+        posZ: 913.0
+    world: world
+    mapName: Air
+    mapCreator: TefelYT
+    nombreCp: 2
+    toggle: true
+    waterrespawn: true
+    lavarespawn: false
+    spawn:
+      posX: 1225.3410980904707
+      posY: 63.0
+      posZ: 1020.3271662811214
+      posPitch: -0.92917085
+      posYaw: -180.72937
+  map13:
+    cp:
+      '1':
+        posX: 864.0
+        posY: 141.0
+        posZ: 1069.0
+      '2':
+        posX: 834.0
+        posY: 140.0
+        posZ: 1078.0
+      '3':
+        posX: 865.0
+        posY: 139.0
+        posZ: 1142.0
+    world: world
+    mapName: Mine
+    mapCreator: TefelYT
+    nombreCp: 3
+    toggle: true
+    waterrespawn: true
+    lavarespawn: false
+    spawn:
+      posX: 864.5
+      posY: 141.0
+      posZ: 1068.5
+      posPitch: -6.0599594
+      posYaw: -0.2962036
+  map14:
+    cp:
+      '1':
+        posX: 978.0
+        posY: 6.0
+        posZ: 1030.0
+      '2':
+        posX: 939.0
+        posY: 4.0
+        posZ: 1031.0
+    world: world
+    mapName: Dungeon
+    mapCreator: TefelYT
+    nombreCp: 2
+    toggle: true
+    waterrespawn: true
+    lavarespawn: false
+    spawn:
+      posX: 980.2288403564141
+      posY: 6.0
+      posZ: 1030.5938100356573
+      posPitch: -3.352051
+      posYaw: -269.937
+  map15:
+    cp:
+      '1':
+        posX: 924.0
+        posY: 9.0
+        posZ: 971.0
+      '2':
+        posX: 942.0
+        posY: 7.0
+        posZ: 939.0
+      '3':
+        posX: 946.0
+        posY: 6.0
+        posZ: 965.0
+      '4':
+        posX: 947.0
+        posY: 12.0
+        posZ: 935.0
+    world: world
+    mapName: Gold
+    mapCreator: TefelYT
+    nombreCp: 4
+    toggle: true
+    waterrespawn: true
+    lavarespawn: false
+    spawn:
+      posX: 924.7277523579064
+      posY: 9.0
+      posZ: 973.4235465173819
+      posPitch: 1.7787275
+      posYaw: 179.45714
+  map16:
+    cp:
+      '1':
+        posX: 1010.0
+        posY: 5.0
+        posZ: 960.0
+      '2':
+        posX: 1012.0
+        posY: 11.0
+        posZ: 941.0
+    world: world
+    mapName: Relax
+    mapCreator: TefelYT
+    nombreCp: 2
+    toggle: true
+    waterrespawn: true
+    lavarespawn: false
+    spawn:
+      posX: 1010.4035708006511
+      posY: 5.0
+      posZ: 962.315835085884
+      posPitch: -5.3473787
+      posYaw: -180.14806
+Lobby:
+  world: world
+  posX: 942.5
+  posY: 76.0
+  posZ: 1119.5
+  posPitch: 0.4477378
+  posYaw: -0.020533815
