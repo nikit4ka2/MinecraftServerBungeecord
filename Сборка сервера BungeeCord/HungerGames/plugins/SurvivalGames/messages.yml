@@ -1,0 +1,129 @@
+version: 1
+prefix:
+  main: '&b&l[&6&lHunger&4&lGames&b&l]'
+  states:
+    info: ''
+    warning: '&c[Предупреждение] '
+    error: '&4[Ошибка] '
+messages:
+  game:
+    playerjoingame: '&a{$player} Вошёл на арену! {$activeplayers}/{$maxplayers}'
+    playerleavegame: '&b{$player} Вокинул арену!'
+    playervote: '&b{$player} проголосовал за старт игры!'
+    countdown: '&6Игра начнется через {$t}'
+    goodluck: '&6Удачи!'
+    playersremaining: '&2Осталось &e{$activeplayers} &2игроков!'
+    playerwin: '&e{$player} &3убил&e {$victim} &3и победил в HungerGames на &3арене
+      {$arena}'
+    disablegame: '&cИгра выключина!'
+    spectate: '&aВы в режиме наблюдения! Введите /sg leave для возврата в лобби'
+    graceperiodend: '&5Режим бога закончился!'
+    restockchest: '&5Сундуки восстановлены!'
+    playerjoinqueue: '&aВы добавлены в очередь. Вы под номером {$queuesize}.'
+    playercheckqueue: '&aВы {$queuepos} в очереди'
+    state: '&cАрена {$arena} была {$input}!'
+    all: '&aВсе арены были {$input}.'
+    started: '&aНачало арены {$arena}.'
+    nopermission: '&cВы не имеете права присоединиться к арене {$arena}'
+  info:
+    success: '&e{$command} &aвыполнено успешно.'
+    unsuccess: '&e{$command} &cвыполнено неудачно.'
+    stats: '&9Ваша HungerGames статистика.'
+    deleted: '&a{$input} удален.'
+    lobbyspawn: '&aЛобби спавна.'
+    spawnset: '&aСпавн &e{$num} &aарены &e{$arena} &aустановлен.'
+  words:
+    points: Очки
+    kills: Убийства
+    deaths: Смерти
+    killstreaks: Полоса убийств
+    noarenas: Нет арены
+    arenas: Арены
+  error:
+    gamefull: '&cАрена {$arena} полная!'
+    alreadyingame: '&cАрена уже начата'
+    nopermission: '&cУ вас нет прав на это действие'
+    gamedisabled: '&cАрена {$arena} отключена!'
+    joinmultiplegames: '&cНе удается присоединиться к нескольким играм!'
+    notenoughtplayers: '&cНе достаточное количество игроков, чтобы начать!'
+    gamedosentexist: '&cАрена {$arena} не создана!'
+    input: '&cОшибка ввода: {$message}'
+    notingame: '&cДолжны быть в игре!'
+    command: '&cКоманда {$command} вернула ошибку'
+    nolobbyspawn: '&cЛобби спавн не установлен!'
+    wrongtarget: '&cБлок, который вы ищете, не {$type}.'
+    notanumber: '&e{$input} &cне номер!'
+    notspecified: '&c{input} не указан!'
+    argumentsnotneeded: '&cАргументы не нужны!'
+    gamenotexist: '&cИгра не выходит!'
+    notinarena: '&cНе на арене!'
+    between: '&cСпавн должен быть между 1 & {$num}.'
+    badinput: '&cВход должен быть "рядом" или номер.'
+    notinside: '&Ты не внутри арены!'
+    nospawns: '&cНе спавн еще.'
+    specingame: '&cНе наблюдать, а в самой игре!'
+  death:
+    DEFAULT: '&e{$player} &2умер!'
+    BLOCK_EXPLOSION: '&e{$player} &2взорвался!'
+    ENTITY_EXPLOSION: '&e{$player} &2взорван!'
+    DROWNING: '&e{$player} &2утонул!'
+    FALL: '&e{$player} &долбанулся об землю слишком сильно!'
+    FIRE: '&e{$player} &2поджарился!'
+    FIRE_TICK: '&e{$player} &2поджарился!'
+    LAVA: '&e{$player} &2сгорел в лаве!'
+    LIGHTING: '&e{$player} &2почувствовал себя лампочкой!'
+    MAGIC: '&e{$player} &2убит &faa&2магией&ff'
+    POISON: '&e{$player} &2был отравлен'
+    PROJECTILE: '&e{$player} &2застрелен'
+    STARVATION: '&e{$player} &2умер от голода!'
+    SUICIDE: '&e{$player} &2камикадзе!'
+    VOID: '&e{$player} &2упал слишком глубоко!'
+    WITHER: '&e{$player} &2убит ведьмой!'
+    CREEPER: '&e{$player} &2взорван крипером!'
+    SKELETON: '&e{$player} &2застрелен скелетом!'
+    ZOMBIE: '&e{$player} &2убит зомби!'
+    PIG_ZOMBIE: '&3{$player} &2убит свинозомби!'
+    SPIDER: '&e{$player} &2убит пауком!'
+    CAVE_SPIDER: '&e{$player} &2убит пещерным пауком!'
+    GHAST: '&e{$player} &2убит гастом!'
+    PLAYER: '&e{$player} &2был убит &e{$killer} &2с помощью {$item}!'
+  killstreak:
+    level1: '&e{$player}&7 совершил двойное убийство!'
+    level2: '&e{$player}&9 совершил групповое убийство!'
+    level3: '&e{$player}&5 совершил массовое убийство'
+    level4: '&e{$player}&4 совершил мини-терракт!'
+    level5: '&a7l{$player} террорист мирового уровня!'
+  help:
+    createarena: Создайте новую арену с текущим выбором
+    delarena: Удалить арену
+    disable: Отключить арену <id>
+    enable: Включить арену <id>
+    flag: Измените особые настройки арены
+    forcestart: Принудительное начало игры
+    join: Присоединиться к лобби
+    leave: Выйти из лобби
+    leavequeue: Покиньте очередь для любой стоящей в очереди игры
+    lisarenas: Просмотреть доступные арены
+    listplayers: Просмотрите всех игроков на арене, на которой вы играете
+    resetspawns: Перезагрузить точки spawnа для арены <id>
+    setlobbyspawn: Установите точку spawnа лобби
+    addlobbywall: Добавьте лобби статическую стену для арены <id>
+    setspawn: Установите точку spawnа для арены на которой Вы находитесь
+    setstatswall: Установке статической стены
+    spectate: Наблюдение за активной ареной
+    stats: Показать Свой статус
+    vote: Голосовать для начала игры
+    teleport: Телепортироватся на арену
+  broadcast:
+    gameend: '&bАрена {$arena} закончилась!'
+    gameend_enabled: false
+    gamewaiting: '&bАрена {$arena} ожидает игроков!'
+    gamewaiting_enabled: false
+    gamestarting: '&bАрена {$arena} начинается через {$t} секунд!'
+    gamestarting_enabled: false
+    gamestarted: '&bАрена {$arena} началась!'
+    gamestarted_enabled: false
+    gamedisabled: '&bАрена {$arena} была отключена'
+    gamedisabled_enabled: false
+    gameenabled: '&bАрена {$arena} была включена'
+    gameenabled_enabled: false

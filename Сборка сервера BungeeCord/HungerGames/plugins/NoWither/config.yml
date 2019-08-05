@@ -1,0 +1,11 @@
+# 
+# Set if you want to disable the Wither from spawning. Use 'true' or 'false'.
+disablespawn: true
+disabledworlds:
+- world
+- world_nether
+- world_the_end
+broadcasting: true
+broadcast-message: Нет иссушителю⼿
+explosiondamage: false
+blockeat: false

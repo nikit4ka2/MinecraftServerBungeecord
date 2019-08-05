@@ -1,0 +1,38 @@
+prefix: '&6[&4SpawnTP&6]'
+SpawnTP: true
+SpawnOnlyNewJoin: false
+NewPlayers:
+  SendToSpawn: true
+  Announce: false
+  AnnounceMessage: '&f&l%player% &6&lHas joined for the first time!'
+Clear:
+  Chat: false
+  Inventory: false
+AnnounceFirstJoin: true
+LoginMessages:
+  Enabled: false
+  Join: '&6&lThe almighty &f&l%player% &6&ljoined the game!'
+  Quit: '&6&lThe almighty &f&l%player% &6&lleft the game!'
+LogTeleport: true
+Firework:
+  Enabled: true
+  Type1: BALL_LARGE
+  Type2: STAR
+  Type3: BURST
+Sound:
+  Enabled: false
+  Sound: GHAST_MOAN
+  Volume: 1
+  Pitch: 1
+DisabledInWorld:
+- Hardcoreworld
+- Nospawnworld
+Spawn:
+  X: 334.5
+  Y: 6.5
+  Z: 475.5
+  Yaw: 0.0
+  Pitch: 0.0
+  World: world
+FirstSpawn: {}
+ConfigVersion: 2

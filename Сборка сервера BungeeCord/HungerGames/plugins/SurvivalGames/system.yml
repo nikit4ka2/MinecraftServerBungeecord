@@ -1,0 +1,158 @@
+version: 0
+sg-system:
+  arenano: 8
+  arenas:
+    '1':
+      world: world
+      x1: 1456
+      y1: 254
+      z1: -865
+      x2: 383
+      y2: 0
+      z2: -1889
+      enabled: true
+    '2':
+      world: world
+      x1: 296
+      y1: 254
+      z1: 333
+      x2: -432
+      y2: 0
+      z2: -505
+      enabled: true
+    '3':
+      world: world
+      x1: -134
+      y1: 254
+      z1: 1442
+      x2: -734
+      y2: 0
+      z2: 745
+      enabled: true
+    '4':
+      world: world
+      x1: 754
+      y1: 254
+      z1: 1243
+      x2: 78
+      y2: 0
+      z2: 719
+      enabled: true
+    '5':
+      world: world
+      x1: 1458
+      y1: 254
+      z1: 608
+      x2: 813
+      y2: 0
+      z2: -18
+      enabled: true
+    '6':
+      world: world
+      x1: 133
+      y1: 254
+      z1: -873
+      x2: -891
+      y2: 4
+      z2: -1896
+      enabled: true
+    '7':
+      world: world
+      x1: -1139
+      y1: 254
+      z1: -857
+      x2: -1695
+      y2: 19
+      z2: -1426
+      enabled: true
+    '8':
+      world: world
+      x1: -2041
+      y1: 254
+      z1: -840
+      x2: -2552
+      y2: 15
+      z2: -1359
+      enabled: true
+  lobby:
+    spawn:
+      world: world
+      x: 333
+      y: 6
+      z: 476
+    sign:
+      set: true
+    signno: 8
+    signs:
+      '1':
+        id: 1
+        world: world
+        x1: 339
+        y1: 8
+        z1: 491
+        x2: 338
+        y2: 8
+        z2: 491
+      '2':
+        id: 2
+        world: world
+        x1: 339
+        y1: 7
+        z1: 491
+        x2: 338
+        y2: 7
+        z2: 491
+      '3':
+        id: 3
+        world: world
+        x1: 336
+        y1: 8
+        z1: 491
+        x2: 335
+        y2: 8
+        z2: 491
+      '4':
+        id: 4
+        world: world
+        x1: 336
+        y1: 7
+        z1: 491
+        x2: 335
+        y2: 7
+        z2: 491
+      '5':
+        id: 5
+        world: world
+        x1: 333
+        y1: 8
+        z1: 491
+        x2: 332
+        y2: 8
+        z2: 491
+      '6':
+        id: 6
+        world: world
+        x1: 333
+        y1: 7
+        z1: 491
+        x2: 332
+        y2: 7
+        z2: 491
+      '7':
+        id: 7
+        world: world
+        x1: 330
+        y1: 8
+        z1: 491
+        x2: 329
+        y2: 8
+        z2: 491
+      '8':
+        id: 8
+        world: world
+        x1: 330
+        y1: 7
+        z1: 491
+        x2: 329
+        y2: 7
+        z2: 491
