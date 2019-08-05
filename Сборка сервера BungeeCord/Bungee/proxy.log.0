@@ -1,0 +1,336 @@
+13:41:22 [INFO] Using standard Java JCE cipher.
+13:41:22 [INFO] Using standard Java compressor.
+13:41:22 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.13-SNAPSHOT:bba5098:1358
+13:41:23 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+13:41:23 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+13:41:23 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+13:41:23 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+13:41:23 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+13:41:23 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+13:41:23 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.13-SNAPSHOT:bba5098:1358 by SpigotMC
+13:41:23 [INFO] Loaded plugin BackToLobby version 1.0 by Grooohm
+13:41:23 [INFO] Loaded plugin cmd_find version git:cmd_find:1.13-SNAPSHOT:bba5098:1358 by SpigotMC
+13:41:23 [INFO] Loaded plugin cmd_server version git:cmd_server:1.13-SNAPSHOT:bba5098:1358 by SpigotMC
+13:41:23 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.13-SNAPSHOT:bba5098:1358 by SpigotMC
+13:41:23 [INFO] Loaded plugin cmd_send version git:cmd_send:1.13-SNAPSHOT:bba5098:1358 by SpigotMC
+13:41:23 [INFO] Loaded plugin cmd_list version git:cmd_list:1.13-SNAPSHOT:bba5098:1358 by SpigotMC
+13:41:23 [WARNING] Forced host server pvp is not defined
+13:41:23 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.13-SNAPSHOT:bba5098:1358 by SpigotMC
+13:41:23 [INFO] Enabled plugin BackToLobby version 1.0 by Grooohm
+13:41:23 [INFO] Enabled plugin cmd_find version git:cmd_find:1.13-SNAPSHOT:bba5098:1358 by SpigotMC
+13:41:23 [INFO] Enabled plugin cmd_server version git:cmd_server:1.13-SNAPSHOT:bba5098:1358 by SpigotMC
+13:41:23 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.13-SNAPSHOT:bba5098:1358 by SpigotMC
+13:41:23 [INFO] Enabled plugin cmd_send version git:cmd_send:1.13-SNAPSHOT:bba5098:1358 by SpigotMC
+13:41:23 [INFO] Enabled plugin cmd_list version git:cmd_list:1.13-SNAPSHOT:bba5098:1358 by SpigotMC
+13:41:24 [INFO] Listening on /127.0.0.1:25565
+13:41:24 [INFO] Started query on /127.0.0.1:25565
+13:41:29 [INFO] [/127.0.0.1:51972] <-> InitialHandler has connected
+13:41:30 [INFO] [/127.0.0.1:51976] <-> InitialHandler has connected
+13:41:37 [INFO] [/127.0.0.1:51977] <-> InitialHandler has connected
+13:41:37 [INFO] [TefelYT] <-> ServerConnector [Hub] has connected
+13:42:21 [INFO] [TefelYT] <-> ServerConnector [Survival] has connected
+13:42:22 [INFO] [TefelYT] <-> DownstreamBridge <-> [Hub] has disconnected
+13:44:33 [INFO] [TefelYT] <-> ServerConnector [SkyBlock] has connected
+13:44:34 [INFO] [TefelYT] <-> DownstreamBridge <-> [Survival] has disconnected
+13:45:02 [INFO] [TefelYT] <-> ServerConnector [Hub] has connected
+13:45:02 [INFO] [TefelYT] <-> DownstreamBridge <-> [SkyBlock] has disconnected
+13:47:35 [SEVERE] [TefelYT] <-> DownstreamBridge <-> [Hub] - encountered exception
+java.lang.IllegalArgumentException: Team viaversion already exists in this scoreboard
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:191)
+	at net.md_5.bungee.api.score.Scoreboard.addTeam(Scoreboard.java:73)
+	at net.md_5.bungee.connection.DownstreamBridge.handle(DownstreamBridge.java:190)
+	at net.md_5.bungee.protocol.packet.Team.handle(Team.java:122)
+	at net.md_5.bungee.netty.HandlerBoss.channelRead(HandlerBoss.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:323)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:426)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:278)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1434)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:965)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:579)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:496)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:897)
+	at java.lang.Thread.run(Unknown Source)
+13:47:35 [INFO] [TefelYT] disconnected with: §fIllegalArgumentException : Team viaversion already exists in this scoreboard @ com.google.common.base.Preconditions:191
+13:47:35 [INFO] [TefelYT] <-> DownstreamBridge <-> [Hub] has disconnected
+13:47:35 [INFO] [TefelYT] -> UpstreamBridge has disconnected
+13:47:39 [INFO] [/127.0.0.1:52137] <-> InitialHandler has connected
+13:47:41 [INFO] [TefelYT] <-> InitialHandler has connected
+13:47:41 [INFO] [TefelYT] <-> ServerConnector [Hub] has connected
+13:51:30 [INFO] [TefelYT] -> UpstreamBridge has disconnected
+13:51:30 [INFO] [TefelYT] <-> DownstreamBridge <-> [Hub] has disconnected
+13:51:30 [INFO] [/127.0.0.1:52173] <-> InitialHandler has connected
+13:52:10 [INFO] Closing listener [id: 0x317ce648, L:/127.0.0.1:25565]
+13:52:10 [INFO] Closing listener [id: 0xd8ee49a5, L:/127.0.0.1:25565]
+13:52:10 [INFO] Closing pending connections
+13:52:10 [INFO] Disconnecting 0 connections
+13:52:11 [INFO] Disabling plugins
+13:52:11 [INFO] Closing IO threads
+13:57:11 [INFO] Using standard Java JCE cipher.
+13:57:11 [INFO] Using standard Java compressor.
+13:57:11 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.13-SNAPSHOT:bba5098:1358
+13:57:11 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+13:57:11 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+13:57:11 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+13:57:11 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+13:57:11 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+13:57:11 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+13:57:11 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.13-SNAPSHOT:bba5098:1358 by SpigotMC
+13:57:11 [INFO] Loaded plugin BackToLobby version 1.0 by Grooohm
+13:57:11 [INFO] Loaded plugin cmd_find version git:cmd_find:1.13-SNAPSHOT:bba5098:1358 by SpigotMC
+13:57:11 [INFO] Loaded plugin cmd_server version git:cmd_server:1.13-SNAPSHOT:bba5098:1358 by SpigotMC
+13:57:11 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.13-SNAPSHOT:bba5098:1358 by SpigotMC
+13:57:11 [INFO] Loaded plugin cmd_send version git:cmd_send:1.13-SNAPSHOT:bba5098:1358 by SpigotMC
+13:57:11 [INFO] Loaded plugin cmd_list version git:cmd_list:1.13-SNAPSHOT:bba5098:1358 by SpigotMC
+13:57:11 [SEVERE] Exception in thread "main" 
+13:57:11 [SEVERE] java.lang.RuntimeException: Invalid configuration encountered - this is a configuration error and NOT a bug! Please attempt to fix the error or see https://www.spigotmc.org/ for help.
+13:57:11 [SEVERE] 	at net.md_5.bungee.conf.YamlConfig.load(YamlConfig.java:69)
+13:57:11 [SEVERE] 	at net.md_5.bungee.conf.Configuration.load(Configuration.java:67)
+13:57:11 [SEVERE] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:268)
+13:57:11 [SEVERE] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:56)
+13:57:11 [SEVERE] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+13:57:11 [SEVERE] Caused by: org.yaml.snakeyaml.error.YAMLException: java.nio.charset.MalformedInputException: Input length = 1
+13:57:11 [SEVERE] 	at org.yaml.snakeyaml.reader.StreamReader.update(StreamReader.java:218)
+13:57:11 [SEVERE] 	at org.yaml.snakeyaml.reader.StreamReader.ensureEnoughData(StreamReader.java:176)
+13:57:11 [SEVERE] 	at org.yaml.snakeyaml.reader.StreamReader.ensureEnoughData(StreamReader.java:171)
+13:57:11 [SEVERE] 	at org.yaml.snakeyaml.reader.StreamReader.peek(StreamReader.java:126)
+13:57:11 [SEVERE] 	at org.yaml.snakeyaml.scanner.ScannerImpl.scanToNextToken(ScannerImpl.java:1177)
+13:57:11 [SEVERE] 	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:287)
+13:57:11 [SEVERE] 	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:227)
+13:57:11 [SEVERE] 	at org.yaml.snakeyaml.parser.ParserImpl$ParseImplicitDocumentStart.produce(ParserImpl.java:195)
+13:57:11 [SEVERE] 	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158)
+13:57:11 [SEVERE] 	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:148)
+13:57:11 [SEVERE] 	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:107)
+13:57:11 [SEVERE] 	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:139)
+13:57:11 [SEVERE] 	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:524)
+13:57:11 [SEVERE] 	at org.yaml.snakeyaml.Yaml.load(Yaml.java:452)
+13:57:11 [SEVERE] 	at net.md_5.bungee.conf.YamlConfig.load(YamlConfig.java:66)
+13:57:11 [SEVERE] 	... 4 more
+13:57:11 [SEVERE] Caused by: java.nio.charset.MalformedInputException: Input length = 1
+13:57:11 [SEVERE] 	at java.nio.charset.CoderResult.throwException(Unknown Source)
+13:57:11 [SEVERE] 	at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+13:57:11 [SEVERE] 	at sun.nio.cs.StreamDecoder.read(Unknown Source)
+13:57:11 [SEVERE] 	at java.io.InputStreamReader.read(Unknown Source)
+13:57:11 [SEVERE] 	at org.yaml.snakeyaml.reader.UnicodeReader.read(UnicodeReader.java:125)
+13:57:11 [SEVERE] 	at org.yaml.snakeyaml.reader.StreamReader.update(StreamReader.java:183)
+13:57:11 [SEVERE] 	... 18 more
+13:58:18 [INFO] Using standard Java JCE cipher.
+13:58:18 [INFO] Using standard Java compressor.
+13:58:18 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.13-SNAPSHOT:bba5098:1358
+13:58:18 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+13:58:18 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+13:58:18 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+13:58:18 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+13:58:18 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+13:58:18 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+13:58:18 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.13-SNAPSHOT:bba5098:1358 by SpigotMC
+13:58:18 [INFO] Loaded plugin BackToLobby version 1.0 by Grooohm
+13:58:18 [INFO] Loaded plugin cmd_find version git:cmd_find:1.13-SNAPSHOT:bba5098:1358 by SpigotMC
+13:58:18 [INFO] Loaded plugin cmd_server version git:cmd_server:1.13-SNAPSHOT:bba5098:1358 by SpigotMC
+13:58:18 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.13-SNAPSHOT:bba5098:1358 by SpigotMC
+13:58:18 [INFO] Loaded plugin cmd_send version git:cmd_send:1.13-SNAPSHOT:bba5098:1358 by SpigotMC
+13:58:18 [INFO] Loaded plugin cmd_list version git:cmd_list:1.13-SNAPSHOT:bba5098:1358 by SpigotMC
+13:58:19 [WARNING] Forced host server pvp is not defined
+13:58:19 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.13-SNAPSHOT:bba5098:1358 by SpigotMC
+13:58:19 [INFO] Enabled plugin BackToLobby version 1.0 by Grooohm
+13:58:19 [INFO] Enabled plugin cmd_find version git:cmd_find:1.13-SNAPSHOT:bba5098:1358 by SpigotMC
+13:58:19 [INFO] Enabled plugin cmd_server version git:cmd_server:1.13-SNAPSHOT:bba5098:1358 by SpigotMC
+13:58:19 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.13-SNAPSHOT:bba5098:1358 by SpigotMC
+13:58:19 [INFO] Enabled plugin cmd_send version git:cmd_send:1.13-SNAPSHOT:bba5098:1358 by SpigotMC
+13:58:19 [INFO] Enabled plugin cmd_list version git:cmd_list:1.13-SNAPSHOT:bba5098:1358 by SpigotMC
+13:58:19 [INFO] Listening on /127.0.0.1:25565
+13:58:19 [INFO] Started query on /127.0.0.1:25565
+13:58:29 [INFO] [/127.0.0.1:52350] <-> InitialHandler has connected
+13:58:31 [INFO] [/127.0.0.1:52355] <-> InitialHandler has connected
+13:58:31 [INFO] [TefelYT] <-> ServerConnector [Hub] has connected
+13:59:38 [SEVERE] [TefelYT] <-> DownstreamBridge <-> [Hub] - encountered exception
+java.lang.IllegalArgumentException: Team viaversion already exists in this scoreboard
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:191)
+	at net.md_5.bungee.api.score.Scoreboard.addTeam(Scoreboard.java:73)
+	at net.md_5.bungee.connection.DownstreamBridge.handle(DownstreamBridge.java:190)
+	at net.md_5.bungee.protocol.packet.Team.handle(Team.java:122)
+	at net.md_5.bungee.netty.HandlerBoss.channelRead(HandlerBoss.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:323)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:297)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1434)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:965)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:579)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:496)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:897)
+	at java.lang.Thread.run(Unknown Source)
+13:59:38 [INFO] [TefelYT] disconnected with: §fIllegalArgumentException : Team viaversion already exists in this scoreboard @ com.google.common.base.Preconditions:191
+13:59:38 [INFO] [TefelYT] <-> DownstreamBridge <-> [Hub] has disconnected
+13:59:38 [INFO] [TefelYT] -> UpstreamBridge has disconnected
+14:00:00 [INFO] [/127.0.0.1:52364] <-> InitialHandler has connected
+14:00:02 [INFO] [TefelYT] <-> InitialHandler has connected
+14:00:02 [INFO] [TefelYT] <-> ServerConnector [Hub] has connected
+14:00:38 [INFO] [TefelYT] -> UpstreamBridge has disconnected
+14:00:38 [INFO] [TefelYT] <-> DownstreamBridge <-> [Hub] has disconnected
+14:00:38 [INFO] [/127.0.0.1:52373] <-> InitialHandler has connected
+14:00:46 [INFO] Closing listener [id: 0x6e179ae0, L:/127.0.0.1:25565]
+14:00:46 [INFO] Closing listener [id: 0x12f1b9d3, L:/127.0.0.1:25565]
+14:00:46 [INFO] Closing pending connections
+14:00:46 [INFO] Disconnecting 0 connections
+14:00:46 [INFO] Disabling plugins
+14:00:47 [INFO] Closing IO threads
+14:06:29 [INFO] Using standard Java JCE cipher.
+14:06:29 [INFO] Using standard Java compressor.
+14:06:29 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.13-SNAPSHOT:bba5098:1358
+14:06:30 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+14:06:30 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+14:06:30 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+14:06:30 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+14:06:30 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+14:06:30 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+14:06:30 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.13-SNAPSHOT:bba5098:1358 by SpigotMC
+14:06:30 [INFO] Loaded plugin BackToLobby version 1.0 by Grooohm
+14:06:30 [INFO] Loaded plugin cmd_find version git:cmd_find:1.13-SNAPSHOT:bba5098:1358 by SpigotMC
+14:06:30 [INFO] Loaded plugin cmd_server version git:cmd_server:1.13-SNAPSHOT:bba5098:1358 by SpigotMC
+14:06:30 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.13-SNAPSHOT:bba5098:1358 by SpigotMC
+14:06:30 [INFO] Loaded plugin cmd_send version git:cmd_send:1.13-SNAPSHOT:bba5098:1358 by SpigotMC
+14:06:30 [INFO] Loaded plugin cmd_list version git:cmd_list:1.13-SNAPSHOT:bba5098:1358 by SpigotMC
+14:06:30 [WARNING] Forced host server pvp is not defined
+14:06:30 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.13-SNAPSHOT:bba5098:1358 by SpigotMC
+14:06:30 [INFO] Enabled plugin BackToLobby version 1.0 by Grooohm
+14:06:30 [INFO] Enabled plugin cmd_find version git:cmd_find:1.13-SNAPSHOT:bba5098:1358 by SpigotMC
+14:06:30 [INFO] Enabled plugin cmd_server version git:cmd_server:1.13-SNAPSHOT:bba5098:1358 by SpigotMC
+14:06:30 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.13-SNAPSHOT:bba5098:1358 by SpigotMC
+14:06:30 [INFO] Enabled plugin cmd_send version git:cmd_send:1.13-SNAPSHOT:bba5098:1358 by SpigotMC
+14:06:30 [INFO] Enabled plugin cmd_list version git:cmd_list:1.13-SNAPSHOT:bba5098:1358 by SpigotMC
+14:06:30 [INFO] Listening on /127.0.0.1:25565
+14:06:30 [INFO] Started query on /127.0.0.1:25565
+14:07:39 [INFO] [/127.0.0.1:52591] <-> InitialHandler has connected
+14:07:41 [INFO] [/127.0.0.1:52595] <-> InitialHandler has connected
+14:07:41 [INFO] [TefelYT] <-> ServerConnector [Hub] has connected
+14:07:48 [INFO] [TefelYT] <-> ServerConnector [Survival] has connected
+14:07:49 [INFO] [TefelYT] <-> DownstreamBridge <-> [Hub] has disconnected
+14:08:06 [INFO] [TefelYT] -> UpstreamBridge has disconnected
+14:08:06 [INFO] [TefelYT] <-> DownstreamBridge <-> [Survival] has disconnected
+14:08:06 [INFO] [/127.0.0.1:52604] <-> InitialHandler has connected
+14:08:15 [INFO] [/127.0.0.1:52606] <-> InitialHandler has connected
+14:08:15 [INFO] [TefelYT] <-> ServerConnector [Hub] has connected
+14:08:19 [INFO] [TefelYT] <-> ServerConnector [Survival] has connected
+14:08:19 [INFO] [TefelYT] <-> DownstreamBridge <-> [Hub] has disconnected
+14:08:24 [INFO] [TefelYT] <-> ServerConnector [Hub] has connected
+14:08:24 [INFO] [TefelYT] <-> DownstreamBridge <-> [Survival] has disconnected
+14:08:52 [INFO] [TefelYT] disconnected with: §fServer closed
+14:08:52 [INFO] [TefelYT] <-> DownstreamBridge <-> [Hub] has disconnected
+14:08:52 [INFO] [TefelYT] -> UpstreamBridge has disconnected
+14:09:05 [INFO] Closing listener [id: 0xb883c6b9, L:/127.0.0.1:25565]
+14:09:05 [INFO] Closing listener [id: 0xd0296788, L:/127.0.0.1:25565]
+14:09:05 [INFO] Closing pending connections
+14:09:05 [INFO] Disconnecting 0 connections
+14:09:05 [INFO] Disabling plugins
+14:09:05 [INFO] Closing IO threads
+14:54:37 [INFO] Using standard Java JCE cipher.
+14:54:37 [INFO] Using standard Java compressor.
+14:54:37 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.13-SNAPSHOT:bba5098:1358
+14:54:37 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+14:54:37 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+14:54:37 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+14:54:37 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+14:54:37 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+14:54:37 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+14:54:37 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.13-SNAPSHOT:bba5098:1358 by SpigotMC
+14:54:37 [INFO] Loaded plugin BackToLobby version 1.0 by Grooohm
+14:54:37 [INFO] Loaded plugin cmd_find version git:cmd_find:1.13-SNAPSHOT:bba5098:1358 by SpigotMC
+14:54:37 [INFO] Loaded plugin cmd_server version git:cmd_server:1.13-SNAPSHOT:bba5098:1358 by SpigotMC
+14:54:37 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.13-SNAPSHOT:bba5098:1358 by SpigotMC
+14:54:37 [INFO] Loaded plugin cmd_send version git:cmd_send:1.13-SNAPSHOT:bba5098:1358 by SpigotMC
+14:54:37 [INFO] Loaded plugin cmd_list version git:cmd_list:1.13-SNAPSHOT:bba5098:1358 by SpigotMC
+14:54:38 [WARNING] Forced host server pvp is not defined
+14:54:38 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.13-SNAPSHOT:bba5098:1358 by SpigotMC
+14:54:38 [INFO] Enabled plugin BackToLobby version 1.0 by Grooohm
+14:54:38 [INFO] Enabled plugin cmd_find version git:cmd_find:1.13-SNAPSHOT:bba5098:1358 by SpigotMC
+14:54:38 [INFO] Enabled plugin cmd_server version git:cmd_server:1.13-SNAPSHOT:bba5098:1358 by SpigotMC
+14:54:38 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.13-SNAPSHOT:bba5098:1358 by SpigotMC
+14:54:38 [INFO] Enabled plugin cmd_send version git:cmd_send:1.13-SNAPSHOT:bba5098:1358 by SpigotMC
+14:54:38 [INFO] Enabled plugin cmd_list version git:cmd_list:1.13-SNAPSHOT:bba5098:1358 by SpigotMC
+14:54:38 [INFO] Listening on /127.0.0.1:25565
+14:54:38 [INFO] Started query on /127.0.0.1:25565
+14:54:45 [INFO] [/127.0.0.1:53324] <-> InitialHandler has connected
+14:54:45 [INFO] [/127.0.0.1:53329] <-> InitialHandler has connected
+14:54:50 [INFO] [/127.0.0.1:53334] <-> InitialHandler has connected
+14:54:50 [INFO] [/127.0.0.1:53337] <-> InitialHandler has connected
+14:54:51 [INFO] [/127.0.0.1:53339] <-> InitialHandler has connected
+14:54:51 [INFO] [TefelYT] <-> ServerConnector [Hub] has connected
+14:55:13 [INFO] [TefelYT] <-> ServerConnector [Survival] has connected
+14:55:14 [INFO] [TefelYT] <-> DownstreamBridge <-> [Hub] has disconnected
+14:55:50 [INFO] [TefelYT] <-> ServerConnector [Parkour] has connected
+14:55:51 [INFO] [TefelYT] <-> DownstreamBridge <-> [Survival] has disconnected
+14:56:21 [INFO] [TefelYT] <-> ServerConnector [SkyBlock] has connected
+14:56:23 [INFO] [TefelYT] <-> DownstreamBridge <-> [Parkour] has disconnected
+14:56:34 [INFO] [TefelYT] <-> ServerConnector [HungerGames] has connected
+14:56:36 [INFO] [TefelYT] <-> DownstreamBridge <-> [SkyBlock] has disconnected
+14:57:06 [INFO] [TefelYT] <-> ServerConnector [Apocalypse] has connected
+14:57:07 [INFO] [TefelYT] <-> DownstreamBridge <-> [HungerGames] has disconnected
+14:58:35 [INFO] [TefelYT] <-> ServerConnector [Hub] has connected
+14:58:35 [INFO] [TefelYT] <-> DownstreamBridge <-> [Apocalypse] has disconnected
+14:59:06 [INFO] [TefelYT] <-> ServerConnector [Survival] has connected
+14:59:07 [INFO] [TefelYT] <-> DownstreamBridge <-> [Hub] has disconnected
+14:59:17 [INFO] [TefelYT] <-> ServerConnector [Parkour] has connected
+14:59:17 [INFO] [TefelYT] <-> DownstreamBridge <-> [Survival] has disconnected
+14:59:30 [INFO] [TefelYT] <-> ServerConnector [SkyBlock] has connected
+14:59:30 [INFO] [TefelYT] <-> DownstreamBridge <-> [Parkour] has disconnected
+14:59:40 [INFO] [TefelYT] <-> ServerConnector [HungerGames] has connected
+14:59:40 [INFO] [TefelYT] <-> DownstreamBridge <-> [SkyBlock] has disconnected
+15:00:00 [INFO] [TefelYT] <-> ServerConnector [Apocalypse] has connected
+15:00:00 [INFO] [TefelYT] <-> DownstreamBridge <-> [HungerGames] has disconnected
+15:00:09 [INFO] [TefelYT] <-> ServerConnector [Hub] has connected
+15:00:09 [INFO] [TefelYT] <-> DownstreamBridge <-> [Apocalypse] has disconnected
+15:00:33 [INFO] [TefelYT] -> UpstreamBridge has disconnected
+15:00:33 [INFO] [TefelYT] <-> DownstreamBridge <-> [Hub] has disconnected
+15:00:34 [INFO] [/127.0.0.1:53376] <-> InitialHandler has connected
+15:00:34 [INFO] [/127.0.0.1:53379] <-> InitialHandler has connected
+15:01:12 [INFO] Closing listener [id: 0xffc3d9f6, L:/127.0.0.1:25565]
+15:01:12 [INFO] Closing listener [id: 0xc89bfc60, L:/127.0.0.1:25565]
+15:01:12 [INFO] Closing pending connections
+15:01:12 [INFO] Disconnecting 0 connections
+15:01:12 [INFO] Disabling plugins
+15:01:12 [INFO] Closing IO threads

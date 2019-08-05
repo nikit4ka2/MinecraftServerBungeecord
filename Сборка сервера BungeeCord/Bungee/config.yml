@@ -1,0 +1,61 @@
+groups:
+  TefelYT:
+  - default
+disabled_commands:
+- disabledcommandhere
+player_limit: -1
+stats: de3243bd-9cda-46ff-8f95-73d2a6dda50c
+permissions:
+  default:
+  - bungeecord.command.list
+  - bungeecord.command.server
+  admin:
+  - bungeecord.command.alert
+  - bungeecord.command.end
+  - bungeecord.command.ip
+  - bungeecord.command.reload
+  - bungeecord.command.list
+listeners:
+- max_players: 1000
+  fallback_server: hub
+  host: 127.0.0.1:25565
+  bind_local_address: true
+  ping_passthrough: false
+  tab_list: SERVER
+  default_server: hub
+  forced_hosts:
+    pvp.md-5.net: pvp
+  tab_size: 60
+  force_default_server: true
+  motd: 'ServerName'
+  query_enabled: true
+  query_port: 25565
+timeout: 30000
+connection_throttle: -1
+servers:
+  Hub:
+    address: 127.0.0.1:25566
+    restricted: false
+    motd: '&cServerName Network &8| &eВашIP'
+  Survival:
+    address: 127.0.0.1:25567
+    restricted: false
+    motd: survival
+  HungerGames:
+    address: 127.0.0.1:25568
+    restricted: false
+    motd: hungergames
+  SkyBlock:
+    address: 127.0.0.1:25569
+    restricted: false
+    motd: skyblock
+  Parkour:
+    address: 127.0.0.1:25570
+    restricted: false
+    motd: parkour
+  Apocalypse:
+    address: 127.0.0.1:25571
+    restricted: false
+    motd: apocalypse
+ip_forward: true
+online_mode: false
