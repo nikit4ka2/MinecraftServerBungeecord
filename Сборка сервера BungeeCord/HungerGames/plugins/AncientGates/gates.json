@@ -1,0 +1,19 @@
+{
+  "sgtolobby": {
+    "froms": [
+      {
+        "world": "world",
+        "x": 334.0,
+        "y": 6.0,
+        "z": 465.0,
+        "yaw": 0.0,
+        "pitch": 0.0
+      }
+    ],
+    "entities": true,
+    "vehicles": false,
+    "inventory": "TRUE",
+    "material": "PORTAL",
+    "cost": 0.0
+  }
+}

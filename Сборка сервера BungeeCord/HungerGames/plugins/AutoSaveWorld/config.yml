@@ -1,0 +1,21 @@
+value:
+  'on': 'on'
+  'off': 'off'
+var:
+  debug: false
+  broadcast: true
+  interval: 300
+  mode: SYNCHRONOUS
+  worlds:
+  - '*'
+  warntime:
+  - 0
+backup:
+  enabled: false
+  interval: 21600
+  MaxNumberOfBackups: 30
+  broadcast: true
+  toextfolders: false
+  disableintfolder: true
+  pluginsfolder: false
+  slowbackup: false
