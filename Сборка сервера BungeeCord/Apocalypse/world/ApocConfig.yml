@@ -1,0 +1,96 @@
+Effects_Day0:
+- Day0Reset
+Effects_Day1:
+- Set   <> DayMultiplier:0.8
+- Set   <> NightMultiplier:0.8
+- Set   <> DuskMultiplier:0.8
+- Set   <> NumOfChanges:1
+- Set   <> GrassDie:On
+- Set   <> BiomeChange:On
+- Set   <> NightStorm:On
+- Both  <> GRASS            -> DIRT
+- Both  <> MYCEL            -> DIRT
+- Both  <> YELLOW_FLOWER    -> DEAD_BUSH
+- Both  <> RED_ROSE         -> DEAD_BUSH
+- Both  <> LONG_GRASS       -> AIR
+- Both  <> DOUBLE_PLANT     -> AIR
+- Day   <> STATIONARY_WATER -> AIR
+- Night <> STATIONARY_WATER -> ICE
+- Set   <> SeaLevel:62
+- Yell  <> The Solar Apocalypse has Started!
+- MOTD  <> $aSplated's $4Solar Apocalypse $6Day:$Day
+- Regrow <> Dusk:On
+- Regrow <> Day:Off
+- Regrow <> Night:Off
+Effects_Day2:
+- Set   <> DayMultiplier:0.6
+- Set   <> NightMultiplier:0.6
+- Set   <> DuskMultiplier:0.6
+- Set   <> NumOfChanges:15
+- Set   <> SeaLevel:59
+- Both  <> LEAVES          -> AIR
+- Day   <> SNOW            -> AIR
+- Day   <> SNOW_BLOCK      -> AIR
+- Day   <> ICE             -> STATIONARY_WATER
+- Both  <> RED_MUSHROOM    -> AIR
+- Both  <> BROWN_MUSHROOM  -> AIR
+- Both  <> MELON_STEM      -> AIR
+- Both  <> PUMPKIN_STEM    -> AIR
+- Both  <> CARROT          -> AIR
+- Both  <> POTATO          -> AIR
+- Both  <> SAPLING         -> DEAD_BUSH
+- Both  <> SOIL            -> DIRT
+- Night <> CACTUS          -> AIR
+- Night <> FIRE            -> AIR
+Effects_Day3:
+- Set   <> DayMultiplier:0.4
+- Set   <> NightMultiplier:0.4
+- Set   <> DuskMultiplier:0.4
+- Set   <> NumOfChanges:40
+- Set   <> SeaLevel:55
+- Both  <> HUGE_MUSHROOM_1 -> AIR
+- Both  <> HUGE_MUSHROOM_2 -> AIR
+- Both  <> CACTUS          -> AIR
+- Both  <> SUGAR_CANE_BLOCK-> AIR
+- Both  <> PUMPKIN         -> AIR
+- Both  <> WATER_LILY      -> AIR
+- Both  <> VINE            -> AIR
+- Both  <> MELON_BLOCK     -> AIR
+Effects_Day4:
+- Set   <> DayMultiplier:0.2
+- Set   <> NightMultiplier:0.2
+- Set   <> DuskMultiplier:0.2
+- Set   <> NumOfChanges:80
+- Set   <> PlayerBurn:On
+- Set   <> PlayerFreeze:10
+- Set   <> BreathPuff:On
+- Set   <> SeaLevel:50
+- Set   <> LavaBomb:On
+- Set   <> LightingBomb:On
+- Day   <> ICE                 -> AIR
+- Day   <> WOOD                -> FIRE
+- Day   <> LOG                 -> FIRE
+- Day   <> LEAVES              -> FIRE
+- Day   <> LOG_2               -> FIRE
+- Day   <> LEAVES_2            -> FIRE
+- Day   <> FENCE               -> FIRE
+- Day   <> WOOD_STEP           -> FIRE
+- Day   <> WOOD_DOUBLE_STEP    -> FIRE
+- Day   <> NETHERRACK          -> FIRE
+- Day   <> SPRUCE_WOOD_STAIRS  -> FIRE
+- Day   <> BIRCH_WOOD_STAIRS   -> FIRE
+- Day   <> JUNGLE_WOOD_STAIRS  -> FIRE
+- Day   <> WOOD_STAIRS         -> FIRE
+- Day   <> BOOKSHELF           -> FIRE
+- Day   <> WOOL                -> FIRE
+- Day   <> DEAD_BUSH           -> FIRE
+- Day   <> JACK_O_LANTERN      -> FIRE
+Effects_Day5:
+- Set   <> DayMultiplier:0.01
+- Set   <> NightMultiplier:0.01
+- Set   <> DuskMultiplier:0.01
+- Set   <> NumOfChanges:160
+- Set   <> SeaLevel: 0
+- Set   <> StopWater:On
+- Day   <> WATER            -> AIR
+- Day   <> STATIONARY_WATER -> AIR
