@@ -1,0 +1,21 @@
+This is the book file.
+
+This file format works similar to the info.txt, motd.txt and rules.txt
+
+Place content in here that you would like to be used by books ingame.
+
+You can use this content by using the book:<section> meta option in kits or item spawning.
+
+#info
+&0&n&lДобро пожаловать на сервер &4&n&lApocalypse
+&0------
+&0На этом сервере днем ты будешь
+&0гореть из-за открытого солнца,
+&0а ночью ты можешь умереть из-за
+&0жуткого холода. Чтобы не умереть,
+&0просто одевайся теплее и ставь
+&0вокруг себя факела. Лучше всего
+&0жить под землей, там ты точно
+&0будешь в безопасности.
+------
+&0&n&lЖелаю удачи!

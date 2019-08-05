@@ -1,0 +1,90 @@
+DisableOnLeave: true
+TrailValues:
+  SmokeLow: 8
+  SmokeHigh: 14
+  FireLow: 2
+  FireHigh: 6
+  EnderLow: 90
+  EnderHigh: 160
+  HeartsLow: 2
+  HeartsHigh: 8
+  DiscoHigh: 8
+  DiscoLow: 2
+  MagmaLow: 4
+  MagmaHigh: 12
+  LetterLow: 9
+  LetterHigh: 16
+  SparkLow: 4
+  SparkHigh: 7
+  BloodLow: 2
+  BloodHigh: 8
+  HappyLow: 4
+  HappyHigh: 12
+  MagicLow: 4
+  MagicHigh: 7
+  MusicHigh: 10
+  MusicLow: 4
+  AngerHigh: 2
+  AngerLow: 5
+  CloudHigh: 5
+  CloudLow: 10
+Messages:
+  smoke:
+    enabled: '&6[&cЭффекты&6] &7Эффект дыма &aВключен!'
+    disabled: '&6[&cЭффекты&6] &7Эффект дыма &cВыключен!'
+  fire:
+    enabled: '&6[&cЭффекты&6] &4Эффект огня &aВключен!'
+    disabled: '&6[&cЭффекты&6] &4Эффект огня &cВыключен!'
+  ender:
+    enabled: '&6[&cЭффекты&6] &2Эффект эндера &aВключен!'
+    disabled: '&6[&cЭффекты&6] &2Эффект эндера &cВыключен!'
+  flowers:
+    enabled: '&6[&cЭффекты&6] &eЭффект цветов &aВключен!'
+    disabled: '&6[&cЭффекты&6] &eЭффект цветов &cВыключен!'
+  loot:
+    enabled: '&6[&cЭффекты&6] &bЭффект дропа &aВключен!'
+    disabled: '&6[&cЭффекты&6] &bЭффект дропа &cВыключен!'
+  stars:
+    enabled: '&6[&cЭффекты&6] &fЗвездный эффект &aВключен!'
+    disabled: '&6[&cЭффекты&6] &fЗвездный эффект &cВыключен!'
+  hearts:
+    enabled: '&6[&cЭффекты&6] &cСердечки &aВключены!'
+    disabled: '&6[&cЭффекты&6] &cСердечки &cВыключен!'
+  disco:
+    enabled: '&6[&cЭффекты&6] &9Эффект диско &aВключен!'
+    disabled: '&6[&cЭффекты&6] &9Эффект диско  &cВыключен!'
+  blood:
+    enabled: '&6[&cЭффекты&6] &cЭффект кровоточения &aВключен!'
+    disabled: '&6[&cЭффекты&6] &cЭффект кровоточения &cВыключен!'
+  sparks:
+    enabled: '&6[&cЭффекты&6] &eЭффект искры &aВключен!'
+    disabled: '&6[&cЭффекты&6] &eЭффект искры &cВыключен!'
+  magma:
+    enabled: '&6[&cЭффекты&6] &6Эффект магмы &aВключен!'
+    disabled: '&6[&cЭффекты&6] &6Эффект магмы &cВыключен!'
+  letters:
+    enabled: '&6[&cЭффекты&6] &0Буквы &aВключены!'
+    disabled: '&6[&cЭффекты&6] &0Буквы &cВыключен!'
+  happy:
+    enabled: '&6[&cЭффекты&6] &aЭффект счастья &aВключен!'
+    disabled: '&6[&cЭффекты&6] &aЭффект счастья &cВыключен!'
+  magic:
+    enabled: '&6[&cЭффекты&6] &5Магический эффект &aВключен!'
+    disabled: '&6[&cЭффекты&6] &5Магический эффект &cВыключен!'
+  music:
+    enabled: '&6[&cЭффекты&6] &9Музыкальный эффект &aВключен!'
+    disabled: '&6[&cЭффекты&6] &9Музыкальный эффект &cВыключен!'
+  anger:
+    enabled: '&6[&cЭффекты&6] &cЭффект ненависти &aВключен!'
+    disabled: '&6[&cЭффекты&6] &cЭффект ненависти &cВыключен!'
+  clouds:
+    enabled: '&6[&cЭффекты&6] &fОблака &aВключены!'
+    disabled: '&6[&cЭффекты&6] &fОблака &cВыключен!'
+  DisableMessage: '&6[&cЭффекты&6] &cЭффект(ы) выключен(ы)!'
+  breadcrumb:
+    enabled: '&6[&cЭффекты&6] &6Эффект хлебных крошек &aВключен!'
+    disabled: '&6[&cЭффекты&6] &6Эффект хлебных кршек &cВыключен!'
+  sweat:
+    enabled: '&6[&cЭффекты&6] &9Эффект водички &aВключен!'
+    disabled: '&6[&cЭффекты&6] &9Эффект водички &cВыключен!'
+Users: {}

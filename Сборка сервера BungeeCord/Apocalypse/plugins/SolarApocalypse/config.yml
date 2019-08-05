@@ -1,0 +1,7 @@
+AutoStart: true
+WaterEffects: false
+MOTD: false
+Regrow: true
+TICKER: 100
+WorldSaveList:
+- world:100004

@@ -1,0 +1,5 @@
+enable: true
+message-format: '&3Ⓛ  &f!clantag! &a&l| %prefix%player%suffix &b➨ &7%message'
+global-message-format: '&6Ⓖ  &f!clantag! &2&l| %prefix%player%suffix &d➨ &e%message'
+ranged-mode: true
+chat-range: 100.0

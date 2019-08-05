@@ -1,0 +1,23 @@
+lastAccountName: TefelYT
+timestamps:
+  login: 1539252000342
+  lastteleport: 1539252005007
+  logout: 1539252008512
+  kits:
+    start: 1538679886916
+    info: 1538680230314
+ipAddress: 127.0.0.1
+lastlocation:
+  world: world
+  x: 1334.6153880206339
+  y: 68.0
+  z: 715.8097293652285
+  yaw: -352.7226
+  pitch: -2.6842682
+logoutlocation:
+  world: world
+  x: 1341.5
+  y: 74.0
+  z: 744.5
+  yaw: -224.92262
+  pitch: 0.31588522

@@ -1,0 +1,562 @@
+savebackconfig: true
+configversion:
+  notify: true
+  created: 727
+  saved: 785
+logging:
+  active: true
+  maxqueuesize: 5000
+  extended:
+    status: false
+    allviolations:
+      debug: true
+      debugonly: false
+      backend:
+        trace: false
+        notify: false
+  backend:
+    console:
+      active: true
+      asynchronous: true
+    file:
+      active: true
+      prefix: ''
+      filename: nocheatplus.log
+    ingamechat:
+      active: true
+      prefix: '&cNCP: &f'
+      subscriptions: false
+data:
+  expiration:
+    active: false
+    duration: 60
+    history: false
+  consistencychecks:
+    active: true
+    interval: 10
+    maxtime: 2
+    suppresswarnings: false
+protection:
+  plugins:
+    hide:
+      active: true
+      nopermission:
+        message: '&cУ вас нет прав использовать эту команду. Если вы считаете, что это не так - обратитесь к администраторам.'
+        commands:
+        - plugins
+        - version
+        - icanhasbukkit
+      unknowncommand:
+        message: Неизвестная команда. Введите "/help", чтобы узнать все команды.
+        commands: []
+  commands:
+    consoleonly:
+      active: false
+      message: '&cЭта команда не может быть запущена из чата. Используйте консоль.'
+      commands:
+      - op
+      - deop
+  clients:
+    motd:
+      active: true
+      allowall: false
+checks:
+  blockbreak:
+    direction:
+      active: true
+      actions: cancel vl>10 log:bdirection:0:5:if cancel
+    fastbreak:
+      active: true
+      strict: true
+      delay: 100
+      intervalsurvival: 100
+      grace: 2000
+      actions: cancel vl>0 log:fastbreak:3:5:cif cancel
+    frequency:
+      active: true
+      intervalcreative: 95
+      intervalsurvival: 45
+      shortterm:
+        ticks: 5
+        limit: 7
+      actions: cancel vl>5 log:bbfrequency:3:5:if cancel vl>60 log:bbfrequency:0:5:cif cancel cmd:kickfrequency
+    noswing:
+      active: true
+      actions: cancel vl>10 log:noswing:0:5:if cancel
+    reach:
+      active: true
+      actions: cancel vl>5 log:breach:0:2:if cancel
+    wrongblock:
+      active: true
+      level: 10
+      actions: cancel vl>10 log:bwrong:0:5:if cancel vl>30 log:bwrong:0:5:cif cancel cmd:kickwb
+  blockinteract:
+    direction:
+      active: true
+      actions: cancel vl>10 log:bdirection:0:3:if cancel
+    reach:
+      active: true
+      actions: cancel vl>5 log:breach:0:2:if cancel
+    speed:
+      active: true
+      interval: 2000
+      limit: 60
+      actions: cancel vl>200 log:bspeed:0:2:if cancel vl>1000 cancel log:bspeed:0:2:icf cmd:kickbspeed
+    visible:
+      active: true
+      actions: cancel vl>100 log:bvisible:0:10:if cancel
+  blockplace:
+    against:
+      active: true
+      actions: cancel
+    autosign:
+      active: true
+      skipempty: false
+      actions: cancel vl>10 log:bautosign:0:3:if cancel
+    direction:
+      active: true
+      actions: cancel vl>10 log:bdirection:0:3:if cancel
+    fastplace:
+      active: true
+      limit: 22
+      shortterm:
+        ticks: 10
+        limit: 6
+      actions: cancel vl>100 log:fastplace:3:5:cif cancel
+    reach:
+      active: true
+      actions: cancel vl>5 log:breach:0:2:if cancel
+    noswing:
+      active: true
+      exceptions:
+      - WATER_LILY
+      - FLINT_AND_STEEL
+      actions: cancel vl>10 log:noswing:0:5:if cancel
+    speed:
+      active: true
+      interval: 45
+      actions: cancel vl>150 log:bpspeed:3:5:if cancel vl>1000 log:bpspeed:3:5:cif cancel
+  chat:
+    captcha:
+      active: false
+      skip:
+        commands: false
+      characters: abcdefghjkmnpqrtuvwxyzABCDEFGHJKMNPQRTUVWXYZ2346789
+      length: 6
+      question: '&cНапишите капчу ''&6[captcha]&c'', чтобы продолжить писать сообщения.'
+      success: '&aХорошо. Похоже, вы не спам-бот.'
+      tries: 3
+      actions: cancel cmd:kickcaptcha vl>4 log:captcha:2:5:cf cancel cmd:kickcaptcha
+    color:
+      active: true
+      actions: log:color:0:1:if cancel
+    commands:
+      active: true
+      exclusions: []
+      handleaschat:
+      - me
+      level: 10
+      shortterm:
+        ticks: 18
+        level: 3
+      actions: log:commands:0:5:cf cancel cmd:kickcommands vl>20 log:commands:0:5:cf cancel cmd:tempkick1
+    text:
+      active: true
+      allowvlreset: true
+      frequency:
+        normal:
+          minimum: 0.0
+          factor: 0.9
+          weight: 6
+          level: 160
+          actions: cancel cmd:tellchatnormal vl>7 log:chatnormal:0:5:f cancel cmd:tellchatnormal vl>20 log:chatnormal:0:5:cf cancel cmd:kickchatnormal vl>40 log:chatnormal:0:5:cf cancel cmd:kickchat5
+        shortterm:
+          minimum: 2.0
+          factor: 0.7
+          weight: 3.0
+          level: 20.0
+          actions: log:chatfast:0:5:cf cancel cmd:kickchatfast vl>20 log:chatfast:0:5:cf cancel cmd:kickchat1 vl>40 log:chatfast:0:5:cf cancel cmd:kickchat5
+      message:
+        lettercount: 1.0
+        partition: 1.0
+        uppercase: 1.0
+        afterjoin: 1.5
+        nomoving: 1.5
+        repeatviolation: 1.0
+        repeatglobal: 1.0
+        repeatself: 1.5
+        words:
+          lengthav: 1.0
+          lengthmsg: 1.0
+          noletter: 0.0
+      global:
+        active: true
+        weight: 1.0
+        words:
+          active: false
+        prefixes:
+          active: false
+        similarity:
+          active: false
+      player:
+        active: true
+        words:
+          active: false
+        prefixes:
+          active: false
+        similarity:
+          active: false
+    warning:
+      active: true
+      level: 67
+      message: |-
+        &e>>>
+        &e>>> &cПожалуйста &eпритормозите &cписать в чат, &eиначе вы будете кикнуты &cза спам.
+        &e>>>
+      timeout: 10
+    relog:
+      active: true
+      timeout: 5000
+      warning:
+        message: '&cВы очень быстро перезаходите! Если так продолжится - вы будете забанены.'
+        number: 1
+        timeout: 60000
+      kickmessage: Вы быстро перезаходите. Попробуйте чуток позже.
+      actions: log:relog:0:10:cf cancel vl>20 log:relog:0:10:cf cancel cmd:tempkick5
+    logins:
+      active: true
+      startupdelay: 600
+      perworldcount: false
+      seconds: 10
+      limit: 10
+      kickmessage: На сервер заходит слишком много людей. Попробуйте позже.
+  combined:
+    bedleave:
+      active: true
+      actions: cancel log:bedleave:0:5:if cmd:kickbedleave
+    enderpearl:
+      active: true
+      preventclickblock: true
+    improbable:
+      active: true
+      level: 300
+      actions: cancel log:improbable:2:8:if
+    invulnerable:
+      active: true
+      triggers:
+        always: false
+        falldistance: true
+      initialticks:
+        join: -1
+      ignore:
+      - FALL
+      modifiers:
+        all: 0
+    munchhausen:
+      active: false
+      actions: cancel vl>100 cancel log:munchhausen:0:60:if
+    yawrate:
+      rate: 380
+      penalty:
+        factor: 1.0
+        minimum: 250
+        maximum: 2000
+      improbable: true
+  fight:
+    canceldead: true
+    toolchangepenalty: 500
+    pvp:
+      knockbackvelocity: default
+    yawrate:
+      active: true
+    angle:
+      active: true
+      threshold: 50
+      actions: cancel vl>100 log:angle:3:5:f cancel vl>250 log:angle:0:5:cif cancel
+    critical:
+      active: true
+      cancel:
+        cancel: 100
+        dividedamage: 1.5
+      falldistance: 0.06251
+      actions: cancel vl>50 log:critical:0:5:cif cancel
+    direction:
+      active: true
+      strict: false
+      penalty: 500
+      actions: cancel vl>5 log:fdirection:3:5:f cancel vl>20 log:fdirection:0:5:if cancel vl>50 log:fdirection:0:5:cif cancel
+    fastheal:
+      active: true
+      interval: 4000
+      buffer: 1000
+      actions: cancel vl>10 cancel log:fastheal:0:10:i vl>30 cancel log:fastheal:0:10:if
+    godmode:
+      active: true
+      minage: 1100
+      maxage: 5000
+      actions: log:godmode:2:5:if cancel vl>60 log:godmode:2:5:icf cancel
+    noswing:
+      active: true
+      actions: cancel vl>10 log:noswing:0:5:if cancel
+    reach:
+      active: true
+      survivaldistance: 4.4
+      penalty: 500
+      reduce: true
+      reducedistance: 0.9
+      reducestep: 0.15
+      actions: cancel vl>10 log:freach:2:5:if cancel
+    selfhit:
+      active: true
+      actions: log:fselfhit:0:5:if cancel vl>10 log:fselfhit:0:5:icf cancel cmd:kickselfhit
+    speed:
+      active: true
+      limit: 15
+      actions: log:fspeed:0:5:if cancel
+      shortterm:
+        ticks: 7
+        limit: 6
+  inventory:
+    drop:
+      active: true
+      limit: 100
+      timeframe: 20
+      actions: log:drop:0:1:cif cancel cmd:dropkick:0:1
+    fastclick:
+      active: true
+      sparecreative: true
+      tweaks1_5: true
+      limit:
+        shortterm: 4
+        normal: 15
+      actions: cancel vl>50 log:fastclick:3:5:cif cancel
+    instantbow:
+      active: true
+      strict: true
+      delay: 130
+      actions: cancel vl>15 log:instantbow:2:5:if cancel
+    instanteat:
+      active: true
+      actions: log:instanteat:2:5:if cancel
+    fastconsume:
+      active: true
+      duration: 0.7
+      whitelist: false
+      items: []
+      actions: log:fastconsume:2:5:if cancel
+    gutenberg:
+      active: true
+      actions: cancel log:gutenberg:0:10:icf cmd:kickinvaliddata
+    items:
+      active: true
+    open:
+      active: true
+      close: true
+      cancelother: true
+  moving:
+    creativefly:
+      active: true
+      ignoreallowflight: false
+      ignorecreative: false
+      model:
+        creative:
+          horizontalspeed: 100
+          verticalspeed: 100
+          maxheight: 128
+        spectator:
+          horizontalspeed: 400
+          verticalspeed: 100
+          maxheight: 128
+      actions: log:flyshort:3:5:f cancel vl>100 log:flyshort:0:5:if cancel vl>400 log:flylong:0:5:cif cancel
+    morepackets:
+      active: true
+      seconds: 6
+      epsideal: 20
+      epsmax: 22
+      burst:
+        packets: 40
+        directviolation: 60
+        epmviolation: 180
+      actions: cancel vl>10 log:morepackets:0:2:if cancel vl>100 log:morepackets:0:2:if cancel cmd:kickpackets
+    morepacketsvehicle:
+      active: true
+      actions: cancel vl>10 log:morepackets:0:2:if cancel
+    nofall:
+      active: true
+      dealdamage: true
+      resetonviolation: false
+      resetonteleport: false
+      resetonvehicle: true
+      anticriticals: true
+      actions: log:nofall:0:5:if cancel vl>30 log:nofall:0:5:icf cancel
+    passable:
+      active: true
+      raytracing:
+        active: true
+        blockchangeonly: true
+      actions: cancel vl>10 log:passable:0:5:if cancel vl>50 log:passable:0:5:icf cancel
+      untracked:
+        teleport:
+          active: true
+        command:
+          active: true
+          tryteleport: true
+          prefixes:
+          - sethome
+          - home set
+          - setwarp
+          - warp set
+          - setback
+          - set back
+          - back set
+    survivalfly:
+      active: true
+      extended:
+        vertical-accounting: true
+      stepheight: default
+      setbackpolicy:
+        falldamage: true
+        voidtovoid: true
+      actions: log:flyshort:3:10:f cancel vl>100 log:flyshort:0:10:if cancel vl>400 log:flylong:0:5:cif cancel vl>1500 log:flylong:0:5:cif cancel cmd:kickfly
+      hover:
+        active: true
+        step: 5
+        ticks: 85
+        loginticks: 0
+        falldamage: true
+        sfviolation: 500
+    trace:
+      size: 60
+      mergedist: 0.9752
+    vehicles:
+      preventdestroyown: true
+      enforcelocation: true
+    velocity:
+      activationcounter: 80
+      activationticks: 140
+      strictinvalidation: true
+    ignorestance: default
+    tempkickillegal: true
+    loadchunks:
+      join: true
+    sprintinggrace: 2.0
+    assumesprint: true
+    speedgrace: 4.0
+    enforcelocation: true
+  net:
+    attackfrequency:
+      active: true
+      limitforseconds:
+        half: 10
+        one: 15
+        two: 30
+        four: 60
+        eight: 100
+      actions: cancel vl>30 cancel log:attackfrequency:0:5:if vl>160 cancel log:attackfrequency:0:0:cif cmd:kickattackfrequency
+    flyingfrequency:
+      active: true
+      seconds: 5
+      packetspersecond: 60
+      actions: cancel
+      reduceredundant:
+        active: true
+        seconds: 3
+        actions: cancel
+    keepalivefrequency:
+      active: true
+      actions: cancel vl>10 cancel log:keepalive:0:10:if vl>40 cancel log:keepalive:0:10:icf vl>100 cancel log:keepalive:0:10:icf cmd:kickalive
+    sounddistance:
+      active: true
+      maxdistance: 320
+strings:
+  angle: '[player] failed [check]: попытка ударять разные сущности в одно и то же время. VL [violations].'
+  attackfrequency: '[player] failed [check]: attacks with too high a frequency ([packets]/[limit], [tags]). VL [violations].'
+  ban: ban [player]
+  ban-ip: ban-ip [ip]
+  bautosign: '[player] failed [check]: failed autosign with [tags]. VL [violations].'
+  bbfrequency: '[player] failed [check]: попытка сломать много блоков. VL [violations].'
+  bdirection: '[player] failed [check]: попытка взаимодействовать с блоком за пределами зоны взаимодействия. VL [violations].'
+  bedleave: '[player] failed [check]: отправка пакетов покидания кровати (не находясь в кровати). VL [violations].'
+  bpspeed: '[player] failed [check]: попытка бросить несколько снарядов одновременно. VL [violations].'
+  breach: '[player] failed [check]: превышение расстояния взаимодейтсвия с блоком ([reachdistance]). VL [violations].'
+  bspeed: '[player] failed [check]: слишком быстрое взаимодействие. VL [violations].'
+  bvisible: '[player] failed [check]: взаимодействие с блоком за пределами зоны взаимодействия. VL [violations].'
+  bwrong: '[player] failed [check]: сломал другой блок, который был кликнут. VL [violations].'
+  captcha: '[player] неоднократный провал проверки через капчу. VL [violations].'
+  chatnormal: '[player] failed [check]: потенциально раздражает участинков чата. VL [violations].'
+  color: '[player] failed [check]: отправил цветное сообщение. VL [violations].'
+  commands: '[player] failed [check]: введено слишком много команд. VL [violations].'
+  combspeed: '[player] failed [check]: выполнял различные действия на высокой скорости. VL [violations].'
+  critical: '[player] failed [check]: попытка выполнить критический урон без прыжка [tags]. VL [violations].'
+  drop: '[player] failed [check]: попытка дропнуть больше предметов, чем возможно. VL [violations].'
+  dropkick: ncp delay ncp kick [player] Слишком быстрый дроп предметов.
+  fastbreak: '[player] failed [check]: попытка ломать блок ([blockid]) быстрее, чем возможно. VL [violations].'
+  fastclick: '[player] failed [check]: попытка быстрого перемещения предметов в инвертаре. VL [violations].'
+  fastconsume: '[player] failed [check]: слишком быстрое употребление еды [food] [tags]. VL [violations].'
+  fastheal: '[player] failed [check]: регенерация здоровья быстрее, чем обычно. VL [violations].'
+  fastplace: '[player] failed [check]: попытка разместить много блоков. VL [violations].'
+  fdirection: '[player] failed [check]: попытка ударить сущность за пределами зоны взаимодействия. VL [violations].'
+  flyshort: '[player] failed [check]: попытка неожиданного движения. VL [violations].'
+  flylong: '[player] failed [check]: попытка переместиться из [locationfrom] до [locationto] на расстояние [distance] блоков. VL [violations].'
+  freach: '[player] failed [check]: попытка атаковать сущность вне зоны досягаемости. VL [violations].'
+  fselfhit: '[player] failed [check]: попытка ударить самого себя. VL [violations].'
+  fspeed: '[player] failed [check]: попытка атаки с высокой частотой ударов. VL [violations].'
+  gutenberg: '[player] failed [check]: created a book with too many pages. VL [violations].'
+  godmode: '[player] failed [check]: избежание получения урона от падения. VL [violations].'
+  improbable: '[player] failed [check]: meets the improbable more than expected. VL [violations].'
+  instantbow: '[player] failed [check]: поджигает стрелы слишком часто. VL [violations].'
+  instanteat: '[player] failed [check]: ест еду [food] слишком быстро. VL [violations].'
+  keepalive: '[player] failed [check]: spams keep-alive packets (god/freecam?). VL [violations].'
+  kick: kick [player]
+  kickalive: ncp kick [player] Too many keep-alive packets.
+  kickattackfrequency: ncp kick [player] Unlikely fast clicking.
+  kickbedleave: ncp delay ncp kick [player] Найди кровать!
+  kickbspeed: ncp kick [player] Вы взаимодействовали слишком быстро!
+  kickcaptcha: ncp kick [player] Введите капчу!
+  kickchat1: ncp tempkick [player] 1 Вам всё ещё запрещено спамить!
+  kickchat5: ncp tempkick [player] 5 Вам запрещено спамить!
+  kickchatfast: ncp kick [player] Вам запрещено спамить в чате!
+  kickchatnormal: ncp kick [player] Слишком много сообщений в чате, остыньте.
+  kickcommands: ncp tempkick [player] 1 Вам запрещено спамить командами!
+  kickfly: ncp delay ncp kick [player] Кикнут за полёт
+  kickfrequency: ncp kick [player] Вы сделали что-то очень быстро!
+  kickgod: ncp kick [player] Режим бога?
+  kickinvaliddata: ncp kick [player] Invalid data.
+  kickpackets: ncp delay ncp kick [player] Слишком много пакетов (сильно лагает?)
+  kickselfhit: ncp kick [player] Вы попытались ударить себя!
+  kickwb: ncp kick [player] Ломание блока не сходится!
+  knockback: '[player] failed [check]: попытка оттолкнуть сущность ударом без спринта. VL [violations].'
+  morepackets: '[player] failed [check]: отправка [packets] большего количества пакетов, чем ожидалось. VL [violations].'
+  munchhausen: '[player] failed [check]: почти сделал яму. VL [violations].'
+  nofall: '[player] failed [check]: попытка избежать урона от падения. VL [violations].'
+  chatfast: '[player] failed [check]: спам (IP: [ip]). VL [violations].'
+  noswing: '[player] failed [check]: не шевелит рукой. VL [violations].'
+  passable: '[player] failed [check]: переместился в блок ([blockid]). VL [violations].'
+  relog: '[player] failed [check]: слишком быстро перезаходит. VL [violations].'
+  tellchatnormal: 'ncp tell [player] &cNCP: &eСлишком много сообщений, остановитесь...'
+  tempkick1: ncp tempkick [player] 1 Подождите минуту!
+  tempkick5: ncp tempkick [player] 5 У вас есть 5 минут, чтобы подумать об этом!
+compatibility:
+  managelisteners: false
+  exemptions:
+    remove:
+      join: true
+      leave: true
+  server:
+    cbdedicated:
+      enable: true
+    cbreflect:
+      enable: true
+  blocks:
+    ignorepassable:
+    - WOODEN_DOOR
+    - IRON_DOOR_BLOCK
+    - TRAP_DOOR
+    - PISTON_EXTENSION
+    - PISTON_MOVING_PIECE
+    allowinstantbreak: []
+    overrideflags:
+      snow: default
+    changetracker:
+      active: false
+      pistons: true
