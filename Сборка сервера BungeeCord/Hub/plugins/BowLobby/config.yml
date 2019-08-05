@@ -1,0 +1,20 @@
+TpActive: true
+GiveOnJoin: true
+GiveOnRespawn: true
+NoPickInInventory: true
+NoDropItem: true
+Sound: false
+Effect: false
+Jump: false
+Power: 1.5
+Infinite: true
+Item:
+    Bow:
+        Name: "&aЛук-Телепортер &7(ПКМ)"
+        Lore: ""
+        Slot: 7
+    Arrow:
+        Name: "&eВолшебная стрела" 
+        Lore: ""
+        Number: 1
+        Slot: 17

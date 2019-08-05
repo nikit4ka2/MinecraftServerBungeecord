@@ -1,0 +1,97 @@
+#     =====================================================================
+#     |       BossMessage - by Victor2748 (Pixelized Network)             |
+#     |       http://dev.bukkit.org/bukkit-plugins/bossmessage/           |
+#     |-------------------------------------------------------------------|
+#     |                          DO NOT TOUCH:                            |
+#     |                  '- ==: ConfigurationMessage'                     |
+#     |                               AND                                 |
+#     |                         'ConfigVersion'                           |
+#     |                  OR IT WILL BREAK YOUR CONFIG!!!                  |
+#     =====================================================================
+
+BossMessage:
+  Random: false
+  ColorCodes: 123456789abcdef
+  NoPermission: '&cНет прав!'
+  Broadcast:
+    DefaultTime: 30
+    Percent: auto
+  Schedule:
+    DefaultTime: 60
+    Percent: auto
+  CheckUpdates: true
+  Whitelist: false
+  RepeatRandomColors: true
+  RepeatRandomPlayers: true
+  VanishNoPacketSupport: false
+  Messages:
+    default:
+    - ==: ConfigurationMessage
+      Message: '&bПривет, &5%player%&b!'
+      Percent: '100'
+      Show: 100
+      Interval: 0
+    - ==: ConfigurationMessage
+      Message: '&aНаша группа: &f&nvk.com/group'
+      Percent: '100'
+      Show: 100
+      Interval: 0
+    - ==: ConfigurationMessage
+      Message: '&bДонат покупать на сайте: &5&nВашСайт'
+      Percent: '100'
+      Show: 100
+      Interval: 0
+    - ==: ConfigurationMessage
+      Message: '&aСейчас онлайн: &b%online_players%&c/&b%max_players%'
+      Percent: '100'
+      Show: 100
+      Interval: 0
+    - ==: ConfigurationMessage
+      Message: '&6Донат услуги &c&l/donate'
+      Percent: '100'
+      Show: 100
+      Interval: 0
+    - ==: ConfigurationMessage
+      Message: '&eСписок серверов &c&l/servers'
+      Percent: '100'
+      Show: 100
+      Interval: 0
+  WhitelistedWorlds:
+  - world
+  - world_nether
+  - ExampleWorld
+  IgnoredPlayers: []
+  Tasks:
+    makeitrain:
+      Message: '&4[&6Weather&aForecast&4] &bRa1n 1t w1ll b3 in &e%sec%'
+      Commands:
+      - say Oops, sorry! We are rong again. No rain will be!
+    stoptheserver:
+      Message: '&4Server is going down in &e%sec%'
+      Commands:
+      - stop
+    starttheskynet:
+      Message: '&aSkynet activated! Its gonna f*** you up in %sec% seconds.'
+      Commands:
+      - say Now, Skynet will initiate a massive nuclear attack in your a$$
+  Regions: {}
+  Events:
+    PVPDeath:
+      Enabled: false
+      Message: '&ePlayer &a%victim% &ewas killed by &c%killer%'
+      Percent: 100
+      Show: 100
+      Broadcast: EVERYONE
+    PlayerJoin:
+      Enabled: true
+      Message: '&4Welcome &e%target% &4to %server_name%!'
+      Percent: 100
+      Show: 100
+      Broadcast: TARGET
+    PlayerQuit:
+      Enabled: false
+      Message: '&bWOW -_- &e%target% &bjust left. We''ll miss him!'
+      Percent: 100
+      Show: 100
+      Broadcast: EVERYONE
+  ConfigVersion: 0
