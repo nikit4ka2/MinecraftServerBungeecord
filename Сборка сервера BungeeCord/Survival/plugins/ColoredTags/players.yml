@@ -1,0 +1,14 @@
+#.
+#.    ######################
+#.    #       PLAYERS      #
+#.    ######################
+#.
+#. These are prefixes and suffixes for individual players.
+#.
+#. Prefixes or suffixes CANNOT be longer than 16 chars, including colors.
+#.
+#. <name> is the separator of prefix and suffix. If you don't include it,
+#. the string will used as prefix.
+#.
+filoghost: '&5[Dev]&f '
+evilseph: '&6[Bukkit]&f '

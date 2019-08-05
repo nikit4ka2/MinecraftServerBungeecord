@@ -1,0 +1,12 @@
+menu:
+  name: '&aМеню'
+  id: 345
+  slot: 1
+  lore:
+  command: 'menu'
+  cooldown-seconds: 1
+  give-at-respawn: true
+  first-join-only: false
+  allow-drop: false
+  block-movement: false
+  give-on-world-change: true

@@ -1,0 +1,4 @@
+debug: false
+clans:
+    length: 40 # максимальная длинна названия клана
+    create_cost: 5000

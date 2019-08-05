@@ -1,0 +1,10 @@
+enable: true
+lang: ru
+commands:
+  enable: true
+  list: []
+flags:
+  enable: true
+  pvp: deny
+  use: deny
+  chest-access: deny

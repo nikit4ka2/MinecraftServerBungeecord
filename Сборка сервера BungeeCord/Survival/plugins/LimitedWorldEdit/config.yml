@@ -1,0 +1,5 @@
+AutoUpdate: false
+delayOn: true
+delayTimeInSecounds: 10
+DelayBasedOnLastWorldEdit: true
+NumberOfBlocksForEverySecoundOfDelay: 10000
