@@ -1,0 +1,150 @@
+﻿######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&0Куда отправимся сегодня?'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 3
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'servers'
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: 'sound: note_pling'
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: 296
+    left-click: false
+    right-click: true
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+ 
+0:
+  COMMAND: 'spawn'
+  NAME: '&eВернуться на точку спавна'
+  LORE:
+  ID: 355
+  POSITION-X: 1
+  POSITION-Y: 1
+1:
+  COMMAND: 'open:select.yml'
+  NAME: '&eВыбрать Lobby'
+  LORE:
+  ID: 341
+  POSITION-X: 9
+  POSITION-Y: 1
+2:
+  COMMAND: ''
+  NAME: '&eГде я и что мне делать?'
+  LORE:
+    - '&fИтак, ты появился в лобби.'
+    - '&fВ этом меню выбери режим,'
+    - '&fгде ты хочешь поиграть.'
+    - ''
+    - '&fЧтобы обратно вернуться сюда,'
+    - '&fпросто напиши &d/lobby'
+  ID: 340
+  POSITION-X: 1
+  POSITION-Y: 3
+3:
+  COMMAND: 'tell:&fГруппа ВК: &cvk.com/group&f, сайт авто-доната: &cВашСайт'
+  NAME: '&eИграйте с нами!'
+  LORE:
+    - ''
+    - '&fБудьте в курсе новостей.'
+    - '&fЗаходите в нашу группу.'
+    - ''
+    - '&fДля покупки привелегий'
+    - '&fзаходите на сайт'
+    - ''
+    - '&aКликни, чтобы получить'
+    - '&aссылки на сайт и группу'
+  ID: 384
+  POSITION-X: 9
+  POSITION-Y: 3 
+4:
+  ENCHANTMENT: 'fire aspect, 1'
+  COMMAND: 'server:Survival'
+  NAME: '&6Survival'
+  LORE:
+    - ''
+    - '&fКлассическое выживание и ничего больше'
+    - '&fМожешь позвать друзей, чтоб они выживали'
+    - '&fс тобой.'
+    - ''
+    - '&6▶ Жми чтобы присоединиться!'
+  ID: 257
+  POSITION-X: 3
+  POSITION-Y: 2
+5:
+  ENCHANTMENT: 'fire aspect, 1'
+  COMMAND: 'server:Parkour'
+  NAME: '&6Parkour'
+  LORE:
+    - ''
+    - '&fСамый спокойный из всех режимов,'
+    - '&fИдеально подходит, чтобы скоротать'
+    - '&fвремя и посоревноваться с друзьями'
+    - '&fна прохождение карт.'
+    - ''
+    - '&6▶ Жми чтобы присоединиться!'
+  ID: 301
+  POSITION-X: 4
+  POSITION-Y: 2
+6:
+  ENCHANTMENT: 'fire aspect, 1'
+  COMMAND: 'server:SkyBlock'
+  NAME: '&6SkyBlock'
+  LORE:
+    - ''
+    - '&fЭто необычное выживание на летающих'
+    - '&fостровках с минимальным набором ресурсов.'
+    - ''
+    - '&6▶ Жми чтобы присоединиться!'
+  ID: 6
+  POSITION-X: 5
+  POSITION-Y: 2
+7:
+  ENCHANTMENT: 'fire aspect, 1'
+  COMMAND: 'server:HungerGames'
+  NAME: '&6Hunger Games'
+  LORE:
+    - ''
+    - '&f24 игрока играют за право быть лучшими,'
+    - '&fно победит только один из них. Для победы'
+    - '&fможно использовать любые умения и вещи'
+    - '&fкоторые вы будете находить в сундуках.'
+    - ''
+    - '&6▶ Жми чтобы присоединиться!'
+  ID: 261
+  POSITION-X: 6
+  POSITION-Y: 2
+8:
+  ENCHANTMENT: 'fire aspect, 1'
+  COMMAND: 'server:Apocalypse'
+  NAME: '&6Apocalypse'
+  LORE:
+    - ''
+    - '&fДнем ты получаешь урон от открытого солнца,'
+    - '&fа ночью тебя ждет жуткий холод.'
+    - ''
+    - '&6▶ Жми чтобы присоединиться!'
+  ID: 377
+  POSITION-X: 7
+  POSITION-Y: 2

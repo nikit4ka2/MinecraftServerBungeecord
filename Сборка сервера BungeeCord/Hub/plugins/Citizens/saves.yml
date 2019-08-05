@@ -1,0 +1,150 @@
+# Citizens NPC Storage
+
+
+last-created-npc-id: 4
+npc:
+  '4':
+    name: §6§lApocalypse
+    uuid: a36e432e-9f52-49b1-ad1c-a2ff12868d9a
+    traits:
+      inventory: {}
+      location:
+        world: world
+        x: '12.5'
+        y: '74.0'
+        z: '-27.5'
+        yaw: '-0.028407203033566475'
+        pitch: '3.501253366470337'
+      spawned: true
+      owner:
+        owner: TefelYT
+        uuid: 4553c3c1-d97f-38d0-bba9-ef61f74c0c0a
+    traitnames: location,owner,spawned,type,inventory
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1MzkyNTE2MzAyODIsInByb2ZpbGVJZCI6IjE1NDJhYzAxNWMwNjQzN2U4MTZhZTA1MGZmMzQyNDM4IiwicHJvZmlsZU5hbWUiOiJOaWdodG1hcmUiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y3M2ViNjk0ZDYxNjkyYzBkOGMyMGM1YzVkZGZiZjJkMTRhZWJmZDZlMjA2MWQxMjI2OTc2YjZjYjBkMGZmNWQifX19
+      cached-skin-uuid-name: nightmare
+      cached-skin-uuid: 1542ac01-5c06-437e-816a-e050ff342438
+      player-skin-name: nightmare
+      player-skin-signature: wJWnT/p/K6LM5N++VdhErT1enmHG5vJfWUuXwVIbTTlbIPaft4KxldHZC+fmoO1v051i0yEkOmBHpCwhGcbmSQbh7TOBY2AyEgqODPdU+B32pQlFUspdxwPByJifgLTlvK52dCxOUA1gM/FvRYGorn8Qe7wuY1yR0sNZTQMYfN6kauKxahrnMZkIxyf1+QitbdKToGw5bwTY7YFjLnMhr22kWB1uG0ORMorSCuO3LWit37mWfkwUQqKosTGSRMQPamT0wLML1MBpydhbVNLqh7b0C9rNrqQtegg0g+ek386uaJ+1QHYLTEUEmVWsf1WEMNQoZ19UKdmPdNNL89QpV7LnN1id/dxB7gR7yK/4nZSKWEAoWcqL1/02KUchqo3npoMFJ7X6Y3GpW4FZWLXs7vhjn37k2mbUIVjr+uGmJBKijnw2YRQA06B455k1HhTRVo6tyOLVzhpPCKLDYWSmDhzU5LUdCvaT2m6QxhMaEtG4uHdNQ9OafvrDGJYIeZpbnMqOVhZCHE1F7SGU7nCw9ednnNmXgJ6+yTp9/kWksEY0zMsWDZd1qobOBjPS7wK62z1EYrii3hN4EIL4+s60CEXMTU7gmUVQPQNYIzDum9IBbSuoVB8X7Wx1ioWZlHiaG7XY2rBYfzD/1zZOiNov1d9GtCDlUAde0ghdsaxxEJg=
+  '3':
+    name: §6§lHungerGames
+    uuid: 8454d8c6-5b66-4d27-9f32-9ba8586c0e00
+    traits:
+      inventory: {}
+      location:
+        world: world
+        x: '6.5'
+        y: '74.0'
+        z: '-28.5'
+        yaw: '-0.0284328181296587'
+        pitch: '0.05129209905862808'
+      spawned: true
+      owner:
+        owner: TefelYT
+        uuid: 4553c3c1-d97f-38d0-bba9-ef61f74c0c0a
+    traitnames: location,owner,spawned,type,inventory
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1MzkyNTE2MjkzNjQsInByb2ZpbGVJZCI6ImY5ZDEyODE3MmQ3YjRlMGZiMjFhMjUyOWVlNjQ3YjFiIiwicHJvZmlsZU5hbWUiOiJfRGVtYXN0ZXJfIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83Yzc2ZDNkNTZhOWM2NjIwMjgwZDA2NmI1OGQ2YTU2NDBkNzE4YmRmYWFlNjY2OWI3ZWI2N2Q5N2QxYjBlM2RkIn19fQ==
+      cached-skin-uuid-name: _demaster_
+      cached-skin-uuid: f9d12817-2d7b-4e0f-b21a-2529ee647b1b
+      player-skin-name: _demaster_
+      player-skin-signature: KUz46FWUSsyMCC3+LBOgs2Bo3JeGOXREvfuVvMXThQn99KAGpNGUkLT+E92aKS4p51DnlbNeQ6dryqzIM8njTIQfNARW0B5LpWVO5+QBo78dR1C6Rn5nGc4Xi9La2W28iP+yKmjPusUWKAouKZmsta9WbeeK11ajDwFPB4F8s6yiOv8TwOhcBY1yY86DDQnmS3SXDZ8bWWI6CRD8bXTIOl2DaiF7nW3VmsXYJDFVa0vc0Xi+fLGBl5IpJqMtRJBmD5Sb6klgvjBl8NhBSqWh35bsYntQJa3Hvhwea6vWaL4FIsNwyqsoIjODUdi1h+eh6L7/RAxMNqbqx8QUtDjK83hQU5LrPAzMFok7di3pPoYFPWXpvcHTNaf01MnQRVaQAeBjOKCC7gsLD6tCaGCFvk18+Q4ntJxLD/lA2VPnM6z7L5ZmMehZdyLfREMjGb9T5TDv7AMdSgkYwjmRy50Bw5HhSVHQiYOVm/F9NpyehgyP2cM1KwuApiazGMN1qJcb9SnhWZnnkJYXCSylvjvbUqvM8KQi1//zA5rV6WlkTExw79rjXnWJjHggEr0tgzN4cVRvmYczgic4phCXwK6lzatvxHgTx6JN9D7AnCeuMnrO7Ugn9p6lI9tyepEwXXuBu3Xp9uvcRO29DGpfWfoqffTumUvJ+vYxD3rpNF/7d5M=
+  '2':
+    name: §6§lSkyBlock
+    uuid: 8613fa38-b3b8-4bae-bd9d-8b7cfe353cfa
+    traits:
+      inventory: {}
+      location:
+        world: world
+        x: '0.5'
+        y: '74.0'
+        z: '-29.5'
+        yaw: '-0.0552014485001564'
+        pitch: '0.07687623053789139'
+      spawned: true
+      owner:
+        owner: TefelYT
+        uuid: 4553c3c1-d97f-38d0-bba9-ef61f74c0c0a
+    traitnames: owner,location,spawned,type,inventory
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1MzkyNTE2MzAwNzgsInByb2ZpbGVJZCI6IjY0NWYyMTNiZWQwZDQ3MzliZTQ5MjJlMjZjYzNlNGZhIiwicHJvZmlsZU5hbWUiOiJNcl9Gcm9zdF8iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzUwMmMyODYyMDFlOWIxMGUyNjYyZmIyNDIwMmZhMGQwNmUwNmY4M2NiZmExODFkYjE0NGZmZWZlYzIyMTg1NDMifX19
+      cached-skin-uuid-name: mr_frost_
+      cached-skin-uuid: 645f213b-ed0d-4739-be49-22e26cc3e4fa
+      player-skin-name: mr_frost_
+      player-skin-signature: kGrltLgdmgK276PuokRos4l97+bHroE2S4+eWRgltFiXsJ91Yb8V5lRgDM+uspa7UDhxRCtfB2tKVU7t3ODWUufTYk3ykS+imacAskJ+FuYZy0zd8jN8s1psi7RajsvhF9SEp5uXNeBBeRINjfloawps9QE66CTk39rz4aQWFZepNMMllWr03MZ0VBQq9SZFzi/2+5YD9v5i4Z+L8vuZR75px8Xh1sjnpV/myCrxed00UjZ6ABrrbD7ncgUaENawOKn6A0SNxCp4ULjGf2GII8HBo2fN8ruKYiMOoc5BGCQLvlkYkcs4fV8LHXwqLtYHRtPfukxdchMmzzlkpu1WvWyu3tFqVI7btpwr+FQnRb/dJPJplTB/Dt4sg7wUWqoKTO+2LGM8sLRevXNh7KGQP9/oGTVrk7K1B9WBGrkevH6BeqJugS+8H+qpsmdYS+ibnt6aYkStXB6GEpBruV09ciynK4lufE9geLOfYzAAcIBbmklX/8zeDJoECOvh/blk9A7AiluWWpNIfSsrSP9JZU8YoXknhNCa7KNJBi1M06j7iw+M4xKMGxwzX4vnKa8WEmn2/BhKTncBUu71gGeihuyMdedQTDOnd1pgwSFrUW4HnCninnVNfmFQW0fsZ66GS6ce7D4E9RkgDJzdsbsVfJcTnkE/cBgs8jOSkNmUr44=
+  '1':
+    name: §6§lParkour
+    uuid: 022ce05b-f952-4d9f-a1a3-b1e95d01b705
+    traits:
+      inventory: {}
+      location:
+        world: world
+        x: '-5.5'
+        y: '74.0'
+        z: '-28.5'
+        yaw: '1.3545671701431274'
+        pitch: '0.23682361841201782'
+      spawned: true
+      owner:
+        owner: TefelYT
+        uuid: 4553c3c1-d97f-38d0-bba9-ef61f74c0c0a
+    traitnames: location,owner,spawned,type,inventory
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1MzkyNTE2MzA3ODYsInByb2ZpbGVJZCI6ImRhYmIyYjE1MWQzZTRhMzRiZGJkZjEyOGJjNWRjNzVjIiwicHJvZmlsZU5hbWUiOiJUZWZlbFlUIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82NjVjNDVhODc3YmZiZjkyZTg2YTVjNGIyY2FjNDNmNjRjZDk1ZmJjOWJmMWRmNmU4YzU1OTc3ZmMxZmRkZGEyIn19fQ==
+      cached-skin-uuid-name: tefelyt
+      cached-skin-uuid: dabb2b15-1d3e-4a34-bdbd-f128bc5dc75c
+      player-skin-name: tefelyt
+      player-skin-signature: bBY9mFJb4I3vEUcHLmAYugWkSlIAVRpTMxbpUaaWPKpn4ZiVNZGiGhVMre9UKWOJzK28HpSw9PL0IxExHFn34wcCl81/27Qts87P3COJAHY/NgwsJz7UUaeQE1ZUfV1NvM6zUI5y0O9L3ub/mC3w5SQpaiKLZb5SgsYa9BwMUVc52vPUkjL7OcZ10HbW132D3NmG7Di88EsjqiUaTMPTt5JZPja1ZK8wtozrmSTZrNBjBRtz4tUqTLbnoVLyhs8M0ZvKopPLC1bMp5iEr5o1wR8zDRHbS5evkOobXZv9xHh6nK4znOxSXCU/iFdxCqqamvXBb8GjzSxRoZKMnqHW+9pJ5dZ0//UyDdHRmIFojKQn4rkrYQkcjFMCBtyui7ZmIgEOikG+ee2UelDYC8Ort39M0IPXA/jPxo56KOC0sSDOVrVRQhKoccjMpBlTL1lwEWLs3AudulKnHRh792bf4aZL+wU2dFa7sL8ltQIrWloKK/HFVacWWirieLQTMPnFe//7Z8x6Sehfi8KbOFEz1BJjFXBIxAbvkquQjcngDWtOL8Oy1sjDU8/eSSfB1j9XBG/8Qj8tpNj/INjLL575mq41j3+vob8rkO3qA28nwGqGeBuKZHg+d6lip4v6uu/GZNNGpu8wUtm9geRtEtT4KRiGyseE6uf7nMRkoBKZQe0=
+  '0':
+    name: §6§lSurvival
+    uuid: 993213e5-4445-4ae7-97dd-acdcc36c5730
+    traits:
+      inventory: {}
+      location:
+        world: world
+        x: '-11.5'
+        y: '74.0'
+        z: '-27.5'
+        yaw: '0.0011767828837037086'
+        pitch: '0.12254498898983002'
+      spawned: true
+      owner:
+        owner: TefelYT
+        uuid: 4553c3c1-d97f-38d0-bba9-ef61f74c0c0a
+    traitnames: owner,location,spawned,type,inventory
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1MzkyNTE2Mjk1ODAsInByb2ZpbGVJZCI6ImUxNmMwOTQwN2QyODRlMTY4MWY2OGQwZGI5NDcxNDYwIiwicHJvZmlsZU5hbWUiOiJESUxMRVJPTiIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzU1YmFkMGRkNjY2NTc3NTA5ZWQwNzFlNDM5YjBmYjNhZDZmNTJjMThiM2U1OGJhODhlYzZmMzY2OWFhOWE3MSJ9fX0=
+      cached-skin-uuid-name: dilleron
+      cached-skin-uuid: e16c0940-7d28-4e16-81f6-8d0db9471460
+      player-skin-signature: jJUOn1AJC2/NyWs7ZsLHZiebnlDIn8v7aVsgrHSeUHQeqKJkvZWW3mFn8Ers7+xpSGBPx/E4CX9VfN+23PagwYffsDwK/1I6mEeeFWoWHP+HceNAzFSIVvHcpJxp9PlbO6QoPB4Uq9IT0HePcLlabT0vQLyZW7U1lUjumun88Kt2n9vVKOes29E/Kx1+Pzq242Jy4aj0yfbXh7LOxK4wFQXjEa5UrC8gJ7vX0j3BQPJhShxos77nyW2yskOnqnAJu2Joi7db4ejs9rFrpvxgCyknSmmK1QlBCG2arzsFkd113bWIWa7kuj4jE8DDCgWLqDJ8rzsp9otqnFBiNCHm8nbn0eVraeLjeUhMxJ7ltS7xb6wRcuMyTMPaxDSiYNWEi+iYxsSES8aXWIKmeUJwurl6MnFetL4SSBGnf6bZJxG9ix6TE1bgNy57JO1QLcicKoE3AmGvnUF+vS5KRHRN3+cw/HrL/4up97eOwLZGeo0aRR4AljysKSbnsTTlCktVc+0/dflH0YMMizqT1oZ551cs8S0o1k3hsF6S2OGT4L+rbeskAgO7UodLmiUKgnr5bnN/ILax8GIykKnz4V4VjCFXXBqQv6kmOVYxwbuldb8ohql4blj7xhrH6QBJHWeBqUYPA0bpbKsXTPdzrBkXZzI9cHwOglcn2mlhdKTMFSk=
+      player-skin-name: dilleron

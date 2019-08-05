@@ -1,0 +1,16 @@
+debug: false
+hide:
+    item: '347'
+    name: '§aИсчезатор §7(ПКМ)'
+    msg: '§e§nHub§f → §7Вы скрыли всех игроков'
+show:
+    item: '347'
+    name: '§aИсчезатор §7(ПКМ)'
+    msg: '§e§nHub§f → §7Все игроки снова показаны'
+slot: 1
+can_drop: false
+cooldown:
+    time: 5
+    msg: '§e§nHub§f → §7Подождите §a5 §7секунд перед следующим использованием'
+disable-worlds:
+    - 'Disable-Worlds'

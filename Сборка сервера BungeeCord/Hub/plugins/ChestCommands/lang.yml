@@ -1,0 +1,11 @@
+no-points: '&cВам нужно {points} очков для этого.'
+no-open-permission: '&cУ вас нет права &e{permission} &cчтобы открыть меню.'
+default-no-icon-permission: '&cУ вас нет прав на эту иконку.'
+open-menu: '&aОткрыто меню "{menu}".'
+no-exp: '&cВам нужно {levels} опыта для этого.'
+menu-not-found: '&cМеню не найдено.'
+no-money: '&cВам нужно {money}$ для этого.'
+no-required-item: '&cУ вас должно быть &e{amount}x {material} &c(ID: {id}, data value:
+  {datavalue}) для этого.'
+open-menu-others: '&aОткрываю меню "{menu}" для {player}.'
+any: any

@@ -1,0 +1,5 @@
+server_version: VERSION_SPIGOT_1_8
+all_possible_versions:
+- VERSION_1_7
+- VERSION_SPIGOT_PROTOCOL
+- VERSION_SPIGOT_1_8

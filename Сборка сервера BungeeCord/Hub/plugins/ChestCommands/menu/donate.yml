@@ -1,0 +1,103 @@
+ ######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&4Платные услуги сервера'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 1
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  command: 'donate'
+
+  # open-with-item - OPTIONAL (you can remove this or
+  # set the item to 0)
+  open-with-item:
+    item-id: 339
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+vip:
+  COMMAND: 'tell: &a&l&oДонат покупать на сайте &f&nВашСайт'
+  NAME: '&8&m-]&b&m--&r &3&lVIP &b&m--&8&m[-'
+  LORE:
+    - '&7&l&oКоманды этой группы'
+    - '&9►&e&oПолет - &c/fly'
+    - '&9►&e&oБессмертие - &c/god'
+    - '&9►&e&oМного &c/sethome'
+    - '&9►&e&oРезервный слот'
+    - '&9►&e&oПриват 5 регионов'
+    - '&9►&e&oВостновить жизни &c/heal'
+    - '&9►&e&oРемонт вещей &c/repair'
+    - '&3&l&oЦена привелегии:'
+    - '&aНавсегда: &699&2руб'
+  ID: stained_glass:4
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 1
+  
+  
+vipp:
+  COMMAND: 'tell: &a&l&oДонат покупать на сайте &f&nВашСайт'
+  NAME: '&8&m-]&b&m--&r &3&lVIP+ &b&m--&8&m[-'
+  LORE:
+    - '&7&l&oКоманды этой группы'
+    - '&9►&3&oВсе команды VIP'
+    - '&9►&e&oМенять игровой режи &c/gm 1 /gm 0'
+    - '&3&l&oЦена привелегии:'
+    - '&aНавсегда: &6199&2руб'
+  ID: stained_glass:2
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 1
+
+  
+mvp:
+  COMMAND: 'tell: &a&l&oДонат покупать на сайте &f&nВашСайт'
+  NAME: '&8&m-]&b&m--&r &3&lMVP &b&m--&8&m[-'
+  LORE:
+    - '&7&l&oКоманды этой группы'
+    - '&9►&3&oВсе команды VIP, VIP+'
+    - '&9►&e&oВозможность кикать - &c/kick'
+    - '&9►&e&oВозможность банить - &c/ban'
+    - '&9►&e&oОткрыть чужой инвентарь &c/invsee'
+    - '&9►&e&oОткрывать эндер-сундуки &c/enderchest'
+    - '&9►&e&oДобавить опыт'
+    - '&9►&e&oИ многое другое'
+    - '&3&l&oЦена привелегии:'
+    - '&aНавсегда: &6399&2руб'
+  ID: stained_glass:3
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 1
+  
+  
+mvpp:
+  COMMAND: 'tell: &a&l&oДонат покупать на сайте &f&nВашСайт'
+  NAME: '&8&m-]&b&m--&r &3&lMVP+ &b&m--&8&m[-'
+  LORE:
+    - '&7&l&oКоманды этой группы'
+    - '&9►&3&oВсе команды VIP, VIP+, MVP'
+    - '&9►&e&oСетить территорию &c//set'
+    - '&9►&e&oОтменить действие &c//undo'
+    - '&9►&e&oСделать стену &c//walls'
+    - '&9►&e&oОтключен &cАнти-Чит'
+    - '&9►&e&oИ многое другое'
+    - '&3&l&oЦена привелегии:'
+    - '&aНавсегда: &6599&2руб'
+  ID: stained_glass:1
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 1

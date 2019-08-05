@@ -1,0 +1,16 @@
+NPCS:
+  '0':
+    Commands:
+    - server Survival~~false
+  '1':
+    Commands:
+    - server Parkour~~false
+  '2':
+    Commands:
+    - server SkyBlock~~false
+  '3':
+    Commands:
+    - server HungerGames~~false
+  '4':
+    Commands:
+    - server Apocalypse~~false

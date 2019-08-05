@@ -1,0 +1,85 @@
+groups:
+  User:
+    default: true
+    permissions:
+    - modifyworld.*
+    - authme.player.login
+    - authme.player.register
+    - authme.player.changepassword
+    - -authme.unregister
+    - authme.changepassword
+    - chatmanager.chat.global
+    - automessage.receive.default
+    - spawntp.spawn
+    - pushpad.use
+    - customjoinitems.*
+    - chestcommands.command.open
+    - chestcommands.open.*
+    - chestcommands.item.*
+    prefix: '&8[&2Игрок&8]&3 '
+    suffix: ''
+  VIP:
+    default: false
+    inheritance:
+    - User
+    permissions:
+    - smoketrail.use.smoke
+    - smoketrail.use.ender
+    - smoketrail.use.fire
+    - smoketrail.use.off
+    prefix: '&8[&6&lVIP&8]&f&l '
+    suffix: ''
+  VIP+:
+    default: false
+    inheritance:
+    - User
+    - VIP
+    permissions:
+    - smoketrail.use.flowers
+    - smoketrail.use.loot
+    - smoketrail.use.stars
+    - smoketrail.use.hearts
+    prefix: '&8[&e&lVIP+&8]&f&l '
+    suffix: ''
+  MVP:
+    default: false
+    inheritance:
+    - User
+    - VIP
+    - VIP+
+    permissions:
+    - smoketrail.use.disco
+    - smoketrail.use.sparks
+    - smoketrail.use.blood
+    prefix: '&8[&4&lMVP&8]&f&l '
+    suffix: ''
+  MVP+:
+    default: false
+    inheritance:
+    - User
+    - VIP
+    - VIP+
+    - MVP
+    permissions:
+    - smoketrail.use.music
+    - smoketrail.use.anger
+    - smoketrail.use.magma
+    - smoketrail.use.happy
+    prefix: '&8[&2&lMVP+&8]&f&l '
+    suffix: ''
+  OSNOVATEL:
+    default: false
+    inheritance:
+    - User
+    - VIP
+    - VIP+
+    - MVP
+    - MVP+
+    permissions:
+    - '*'
+    prefix: '&2&l[&b&lОснователь&2&l]&4&l '
+    suffix: ''
+users:
+  TefelYT:
+    group:
+    - OSNOVATEL
